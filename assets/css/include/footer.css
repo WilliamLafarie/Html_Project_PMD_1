@@ -3,3 +3,7 @@
 */
 
 @import url('./../fonts.css');
+
+#footer1 {
+    border-style: red; 
+}
