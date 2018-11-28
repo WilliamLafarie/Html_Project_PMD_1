@@ -16,7 +16,7 @@
     <header>
         <nav class="containers">
             <a href="#"><img src="./../assets/img/slogan.png" alt="logo"/></a>
-            <a href="#"><img src="./../assets/img/Home/homelogo.png" alt="home" class="menu"></a>
+            <a href="#"><img src="./../assets/img/Home/logoaccueil.png" alt="home" class="menu"></a>
             <a href="#"><i class="menu"></i>Actualités</a>
             <a href="#"><i class="menu"></i>Hors-course</a>
             <a href="#"><i class="menu"></i>Calendrier</a>
