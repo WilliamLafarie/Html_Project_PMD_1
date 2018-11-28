@@ -11,16 +11,25 @@ nav{
     width: 70%;
     margin-left: 15%;
     text-align: center;
-    font-family: 'Montserrat-Bold';
 }
 
-header a{
+nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-family: 'Nunito-Regular';
+    font-size: 0.9rem;
 }
 
 header nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+nav a:hover{
+    border-bottom: 3px solid rgb(255, 210, 0);
+}
+
+nav a:active{
+    border-bottom: 3px solid rgb(255, 210, 0);
 }
