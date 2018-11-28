@@ -21,4 +21,13 @@
     Actualité
 */
 
+.actualite {
+    background-color:blue;
+}
+
+.actualite h2 {
+    font-size:3rem;
+    font-family: "Nunito-Bold";
+}
+
 

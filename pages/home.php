@@ -12,9 +12,14 @@
 
 <main>
 
-   
+    <section class="actualite">
+        <h2>Dernières actualité - <span>Carnet de route</span></h2>
 
-</section>
+        <div class="gallery">
+        
+        </div>
+
+    </section>
 
 
 
