@@ -5,5 +5,40 @@
 @import url('./../fonts.css');
 
 #footer1 {
-    border-style: red; 
+    display: flex;
+    justify-content: center; 
+    background-color: #38435b; 
+}
+
+#Xavier_1{
+    display:flex; 
+    width: 25%; 
+}
+
+#Jean_Rene{
+    display:flex; 
+    width: 25%; 
+}
+
+h4{
+    color: aliceblue; 
+    font-weight: bold; 
+    font-size: 15px; 
+    display: flex; 
+    justify-content:flex-start; 
+}
+
+p{
+color: aliceblue; 
+display:flex; 
+justify-content: flex-end; 
+}
+
+.PDG{
+    color: #cdb717; 
+}
+
+.texte_case1{
+    display:flex; 
+    flex-direction: column; 
 }
