@@ -7,10 +7,11 @@
 
 
 nav{
-    background-color: rgb(255, 0, 0);
-    width: 80%;
-    margin-left: 10%;
+    /*background-color: rgb(255, 0, 0);*/
+    width: 70%;
+    margin-left: 15%;
     text-align: center;
+    font-family: 'Montserrat-Bold';
 }
 
 header a{

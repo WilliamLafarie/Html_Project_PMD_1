@@ -17,12 +17,12 @@
         <nav class="containers">
             <a href="#"><img src="./../assets/img/slogan.png" alt="logo"/></a>
             <a href="#"><img src="./../assets/img/Home/homelogo.png" alt="home"></a>
-            <a href="#"><i class=""></i>Actualités</a>
-            <a href="#"><i class=""></i>Hors-course</a>
-            <a href="#"><i class=""></i>Calendrier</a>
-            <a href="#"><i class=""></i>L'équipe 2016</a>
-            <a href="#"><i class=""></i>Galerie</a>
-            <a href="#"><i class=""></i>Social Live</a>
-            <a href="#"><i class=""></i>Partenaires</a>
+            <a href="#"><i class="menu"></i>Actualités</a>
+            <a href="#"><i class="menu"></i>Hors-course</a>
+            <a href="#"><i class="menu"></i>Calendrier</a>
+            <a href="#"><i class="menu"></i>L'équipe 2016</a>
+            <a href="#"><i class="menu"></i>Galerie</a>
+            <a href="#"><i class="menu"></i>Social Live</a>
+            <a href="#"><i class="menu"></i>Partenaires</a>
         </nav>
     </header>
