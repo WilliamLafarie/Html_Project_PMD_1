@@ -22,12 +22,35 @@
 */
 
 .actualite {
-    background-color:blue;
+    background-color:#f0f6ff;
 }
 
 .actualite h2 {
     font-size:3rem;
-    font-family: "Nunito-Bold";
+    font-family: "Montserrat-Bold";
+}
+
+.gallery {
+    display:flex;
+    justify-content: center;;
+    align-items: center;
+    
+}
+
+.gallery__left {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+}
+
+.gallery__left img{
+    margin :3px;
+}
+
+.gallery__right {
+
 }
 
 
