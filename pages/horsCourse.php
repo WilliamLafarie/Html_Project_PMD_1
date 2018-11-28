@@ -9,3 +9,15 @@
     include('./include/header.php');
     
 ?>
+
+<main>
+
+
+</main>
+
+<?php
+   
+    // On inclut le Footer
+    include('./include/footer.php');
+    
+?>
