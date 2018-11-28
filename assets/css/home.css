@@ -4,53 +4,184 @@
 
 @import url('./fonts.css');
 
-
-/*
-    RESET
-*/
-
-* {
-    margin:0;
-    padding:0;
-    border:0;
-    box-sizing: border-box
-}
-
-
 /*
     Actualité
 */
 
-.actualite {
+section:nth-of-type(2n+1) {
     background-color:#f0f6ff;
 }
 
-.actualite h2 {
-    font-size:3rem;
-    font-family: "Montserrat-Bold";
+.content {
+    width: 60%;
+    margin: 0 auto; 
+    padding: 2.5rem 0;
+}
+
+.content h2 {
+    font-family: "Montserrat-ExtraBold";
+    font-size: 1.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin-bottom: 20px;
+    word-spacing: 5px;    
+}
+
+.content h2:before {
+    content: "";
+    display: block;
+    width: 4rem;
+    border-top: 3px solid #ffda00;
+    padding-top: 10px;
+}
+
+.content h2 span {
+    font-family: "OpenSans-Bold";
+    text-transform: none;
+    
 }
 
 .gallery {
     display:flex;
-    justify-content: center;;
     align-items: center;
-    
 }
 
 .gallery__left {
     display:flex;
     flex-wrap:wrap;
-    justify-content: center;
     align-items: center;
-    width:30%;
+    
 }
 
 .gallery__left img{
-    margin :3px;
+    margin :5px;
 }
 
 .gallery__right {
 
 }
 
+.actualite__item {
+    position:relative;
+}
 
+.actualite__item figcaption{
+    background-color: #ffda00;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 10%;
+    width:80%;
+    font-family: "OpenSans-SemiBold";
+    font-size: 1rem;
+    text-align: center;
+}
+
+.camera {
+    width: auto;
+    bottom: 35%;
+}
+
+.camera img{
+    width: 2rem;
+}
+
+.journal{
+    width: 2rem;
+}
+
+
+
+/*
+    Discover
+*/
+
+.discover__item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discover__item figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover__item figure img {
+    border: 10px solid #ffda00;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.discover__item figcaption {
+    font-family: "OpenSans-SemiBold";
+    font-size: 1.5rem;
+    color: #575859;
+}
+
+.discover__item figcaption:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 4rem;
+    border-bottom: 3px solid #575859;
+    padding-bottom: 10px;
+}
+
+
+
+.discover__item img:last-child {
+    width: 5%;
+}
+
+
+
+/*
+    horsCourse
+*/
+
+.horsCourse__item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.horsCourse__item figure {
+    background-color:#ffd500;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    
+}
+
+.horsCourse__item figcaption {
+    font-family: "Nunito-Regular";
+    font-size: 1.5rem;
+    color: #575859;
+    padding:0 20%;
+    text-align: center;
+    
+}
+
+.horsCourse__item figcaption:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 4rem;
+    border-bottom: 3px solid #575859;
+    padding-bottom: 20px;
+}
+
+
+/*
+    Informations
+*/
+
+/*
+    Contact
+*/
