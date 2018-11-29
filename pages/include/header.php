@@ -15,14 +15,14 @@
 <body>
     <header>
         <nav class="containers">
-            <a href="#"><img src="./../assets/img/slogan.png" alt="logo"/></a>
-            <a href="#"><img src="./../assets/img/Home/logoaccueil.png" alt="home" class="menu"></a>
-            <a href="#"><i class="menu"></i>Actualités</a>
-            <a href="#"><i class="menu"></i>Hors-course</a>
-            <a href="#"><i class="menu"></i>Calendrier</a>
-            <a href="#"><i class="menu"></i>L'équipe 2016</a>
-            <a href="#"><i class="menu"></i>Galerie</a>
-            <a href="#"><i class="menu"></i>Social Live</a>
-            <a href="#"><i class="menu"></i>Partenaires</a>
+            <a href="#" class="logoheader"><img src="./../assets/img/slogan.png" alt="logo"/></a>
+            <a href="#"><img src="./../assets/img/Home/logoaccueil.png" alt="home"></a>
+            <a href="#">Actualités</a>
+            <a href="#">Hors-course</a>
+            <a href="#">Calendrier</a>
+            <a href="#">L'équipe 2016</a>
+            <a href="#">Galerie</a>
+            <a href="#">Social Live</a>
+            <a href="#">Partenaires</a>
         </nav>
     </header>
