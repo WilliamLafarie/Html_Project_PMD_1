@@ -4,6 +4,52 @@
 
 @import url('./../fonts.css');
 
+.contact{
+    width: 60%;
+    margin: 4rem auto; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    
+}
+
+.contact img {
+    width: 15%;
+    height: auto;
+}
+
+.slogan {
+    width: 40%;
+    font-family: "OpenSans-Bold";
+    text-align: center;
+    font-size: 1rem;
+}
+
+.slogan p:last-child {
+    margin-top:20px;
+    font-family: "OpenSans-SemiBold";
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f3749;
+    color: #ffda00;
+    padding:10px;
+}
+
+.phone p {
+    font-family: 'OpenSans-SemiBold';
+    font-size: 1rem;
+}
+
+.phone p:nth-child(2) {
+    font-size: 1.5rem;
+    font-family: 'OpenSans-Bold';
+}
+
 
 #footer1{
     display: flex;

@@ -28,13 +28,13 @@ section:nth-of-type(2n+1) {
     word-spacing: 5px;    
 }
 
-.content h2:before {
+/* .content h2:after {
     content: "";
     display: block;
     width: 4rem;
     border-top: 3px solid #ffda00;
     padding-top: 10px;
-}
+} */
 
 .content h2 span {
     font-family: "OpenSans-Bold";
@@ -203,6 +203,7 @@ section:nth-of-type(2n+1) {
         justify-content: space-around;
         align-items: center;
         flex: 1;
+        
     }
 
     .nextRun {
@@ -210,7 +211,7 @@ section:nth-of-type(2n+1) {
         display: -webkit-flex;
         display: -moz-flex;
         flex-direction: column;
-        
+        flex:1;
     }
 
     .run {
@@ -265,6 +266,7 @@ section:nth-of-type(2n+1) {
         align-items: center;
         background-color: #EFEFEF;
         width: 80%;
+        
     }
 
     .runDescription p {
@@ -307,6 +309,7 @@ section:nth-of-type(2n+1) {
         display: -moz-flex;
         flex-direction: column;
         justify-content: center;
+        flex:1;
     }
 
     .zoom p {
