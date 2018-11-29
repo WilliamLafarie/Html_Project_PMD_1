@@ -13,91 +13,11 @@
 <main>
     <div class="content">
         <figure>
-            <img src="" alt=""/>
+            <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
             <figcaption></figcaption>
         </figure>
         <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <img src="" alt=""/>
+            <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
             <figcaption></figcaption>
         </figure>
     </div>

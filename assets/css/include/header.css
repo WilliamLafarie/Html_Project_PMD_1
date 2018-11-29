@@ -21,7 +21,7 @@ header nav{
 }
 
 nav a:not(.logoheader):hover{
-    border-bottom: 3px solid rgb(255, 210, 0);
+    border-bottom: 3px solid rgb(255, 218, 0);
 }
 /*.menu :hover{
     border-bottom: 3px solid rgb(255, 210, 0);
