@@ -11,8 +11,96 @@
 ?>
 
 <main>
-
-
+    <div class="content">
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="" alt=""/>
+            <figcaption></figcaption>
+        </figure>
+    </div>
 </main>
 
 <?php
