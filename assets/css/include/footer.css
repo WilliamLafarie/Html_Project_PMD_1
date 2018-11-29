@@ -14,8 +14,6 @@
 .content{
     display: flex;
     justify-content: center; 
-    align-items: center; 
-    justify-content: space-around; 
 }
   
 #Xavier_1 {
@@ -24,6 +22,7 @@
     height: 50%; 
     font-family: "Montserrat-Light";
     color: aliceblue; 
+    margin-left: 2%; 
 }
 #Jean_Rene{
     display: flex;
@@ -49,7 +48,7 @@ h4 {
 
 .imagefoot {
     height: 142%;
-    width: 22%;
+    width: 25%;
     border: solid 4px #ffda00; 
     border-radius: 100%; 
 }
@@ -70,11 +69,15 @@ h4 {
 
 .lire_suite{
     display: flex; 
-    border:solid 1px #ffda00; 
+    border:solid thin #ffda00; 
     background-color: transparent; 
     font-family: "Montserrat-Light";
     font-size: 10px; 
-    color: aliceblue;
+    color: #ffda00;
     justify-content: flex-end; 
-    margin-left: 70%;  
+    margin-left: 60%;  
+    padding: 2%; 
+    padding-left: 5%; 
+    padding-right: 5%; 
+    margin-top: 2%; 
 }

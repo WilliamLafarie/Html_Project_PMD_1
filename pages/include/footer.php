@@ -23,7 +23,7 @@
                                                 qui
                                                 soit
                                                 séduit par le travail de fond que je...</p>
-                                                <button class="lire_suite" type="button">lire la suite
+                                        <button class="lire_suite" type="button">lire la suite
                                         </button>
                                 </article>
                         </div>
@@ -33,9 +33,9 @@
 
         <section id="footer2">
                 <div class="content">
-                        NEWSLETTER
+                       <h2> NEWSLETTER
                         RESEAUX SOCIAUX
-                        KIT DE PRESSE
+                        KIT DE PRESSE </h2>
                 </div>
         </section>
 </footer>
