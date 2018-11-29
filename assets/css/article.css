@@ -4,6 +4,155 @@
 
 @import url('./fonts.css');
 
-h1{
-    color:red;
+main {
+
+    background: linear-gradient(to bottom, #f0f6ff 24.75%,#ffffff 24.75%);
+    width: 100%;
 }
+
+.content {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title h1 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 1.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin-bottom: 20px;
+    word-spacing: 5px;
+}
+
+/* .title img {
+    width: 5%;
+    transform: scaleY(-1);
+    border: 1px solid #575859;;
+    border-radius: 50%;
+} */
+
+.chapeau {
+    background-color:#38435c;
+    position: relative;
+}
+
+.chapeau__text{
+    color: #ffda00;
+    font-family: "OpenSans-SemiBold";
+    font-size: 1.5rem;
+    width:80%;
+    padding: 10px;
+}
+
+figure {
+    background-color:#ffd500;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    right:1rem;
+    bottom:1rem;
+    
+}
+
+figure img {
+    width: 30%;
+}
+
+figcaption {
+    padding:0 20%;
+    text-align: center;
+}
+
+figcaption p {
+    font-family: "Nunito-Bold";
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #575859;
+    border-bottom: 3px solid #575859;
+    padding: 10px 0;
+}
+
+[alt = "photo1"]{
+    margin-top: 10px;
+}
+
+.article__text p{
+    font-family: "Nunito-Regular";
+    font-size: 1rem;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.article__text p:{
+    font-weight: bold;
+}
+
+.share {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+article h2{
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 1.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin: 20px 0;
+    word-spacing: 5px;
+}
+
+article h2:before{
+    content: "";
+    display: block;
+    width: 4rem;
+    border-top: 3px solid #ffda00;
+    padding-top: 10px;
+}
+
+.share__rsn img {
+    margin: 0 10px;
+}
+
+/* .share__rsn ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.share__rsn a {
+    color: white;
+    font-size: 0.8rem;
+    font-family: "OpenSans-Bold";
+    padding:10px;
+}
+
+.facebook{
+    background-color: #39579a;
+    margin: 10px 0;
+}
+
+.twitter {
+    background-color: #00abf0;
+}
+
+.google {
+    background-color: #df4a32;
+}
+ */
+

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./../assets/css/reset.css">
     <link rel="stylesheet" href="./../assets/css/include/header.css">
     <link rel="stylesheet" href="./../assets/css/include/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     
     <!-- On charge le style CSS de la page concernée -->
     <link rel="stylesheet" href="./../assets/css/<?php echo $pageNameSplit[0]?>.css">
