@@ -114,46 +114,148 @@
         </div>
     </section>
 
-    <section class="Informations">
-        <div class="content">
+    <section class="informations">
+        <div class="content --modifier">
             <div class="nextRun">
                 <h2>Prochaines courses</h2>
+                
                 <div class="run">
 
                     <div class="calendar">
+                        <div class="calendar__top">
+                            <p>jan</p>
+                        </div>
 
+                        <div class="calendar__bot">
+                            <p>28</p>
+                        </div>
                     </div>
                     
                     <div class="runDescription">
+                        <div class="pays">
+                            <img src="./../assets/img/home/canada.svg" alt="">
+                            <p>canada</p>
+                        </div>
 
+                        <span><p>Titre de la course lorem ipsum ah oui oui..</p></span>
+                        <img src="./../assets/img/home/next.svg" alt="next">
 
                     </div>
-                    <a href=""></a>
-
                 </div>
+
+                <div class="run">
+
+                    <div class="calendar">
+                        <div class="calendar__top">
+                            <p>fev</p>
+                        </div>
+
+                        <div class="calendar__bot">
+                            <p>13</p>
+                        </div>
+                    </div>
+
+                    <div class="runDescription">
+                        <div class="pays">
+                            <img src="./../assets/img/home/belgium.svg" alt="">
+                            <p>Belgique</p>
+                        </div>
+
+                        <span><p>Titre de la course lorem ipsum ah oui oui..</p></span>
+                        <img src="./../assets/img/home/next.svg" alt="next">
+
+                    </div>
+                </div>
+
+                 <div class="run">
+
+                    <div class="calendar">
+                        <div class="calendar__top">
+                            <p>avr</p>
+                        </div>
+
+                        <div class="calendar__bot">
+                            <p>11</p>
+                        </div>
+                    </div>
+
+                    <div class="runDescription">
+                        <div class="pays">
+                            <img src="./../assets/img/home/france.svg" alt="">
+                            <p>France</p>
+                        </div>
+
+                        <span><p>Titre de la course lorem ipsum ah oui oui..</p></span>
+                        <img src="./../assets/img/home/next.svg" alt="next">
+
+                    </div>
+                </div>
+
+                <div class="run">
+
+                    <div class="calendar">
+                        <div class="calendar__top">
+                            <p>mar</p>
+                        </div>
+
+                        <div class="calendar__bot">
+                            <p>31</p>
+                        </div>
+                    </div>
+
+                    <div class="runDescription">
+                        <div class="pays">
+                            <img src="./../assets/img/home/spain.svg" alt="">
+                            <p>Espagne</p>
+                        </div>
+
+                        <span><p>Titre de la course</p></span>
+                        <img src="./../assets/img/home/next.svg" alt="next">
+
+                    </div>
+                </div>
+
+                <div class="run">
+
+                    <div class="calendar">
+                        <div class="calendar__top">
+                            <p>aoû</p>
+                        </div>
+
+                        <div class="calendar__bot">
+                            <p>18</p>
+                        </div>
+                    </div>
+
+                    <div class="runDescription">
+                        <div class="pays">
+                            <img src="./../assets/img/home/france.svg" alt="">
+                            <p>France</p>
+                        </div>
+
+                        <span><p>Titre de la course</p></span>
+                        <img src="./../assets/img/home/next.svg" alt="next">
+
+                    </div>
+                </div>
+                <div class ="link">
+                    <a href="">Toutes les courses</a>
+                </div>
+                
             </div>
 
             <div class="zoom">
                 <h2>Zoom sur le tour d'espagne</h2>
                 <article>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae consequuntur quidem nisi. Pariatur aliqu...</p>
-                    <img src="" alt="">
-                    <a href=""></a>
+                    <img src="./../assets/img/home/image10accueil.png" alt="">
+                    <div class ="link">
+                        <a href="">Découvrir la course</a>
+                    </div>
+                    
                 </article>
 
             </div>
-    </section>
-
-    <section class="contact">
-        <img src="./../assets/img/directenergielogo" alt="">
-        <div class="slogan">
-            <p>1.5 millions de clients ont déjà choisi Direct Energie pour l'électricité et le gaz</p>
-            <p>Et vous, où en êtes-vous ? </p>
-        </div>
-        <div class="phone">
-            <p>Contactez-nous au <span>3099</span> <span>Service et appel gratuit</span></p>
-        </div>
-
     </section>
 
     

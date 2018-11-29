@@ -182,6 +182,132 @@ section:nth-of-type(2n+1) {
     Informations
 */
 
+    .--modifier {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex: 1;
+    }
+
+    .nextRun {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .run {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 5px 0;
+
+    }
+
+    .calendar {
+        
+    }
+
+    .calendar__top {
+        background-color:#ffd500;
+        border: 0.5px solid #EFEFEF;
+        border-bottom: none;
+        text-align: center;
+    }
+
+    .calendar__top p{
+        color: #575859;
+        text-transform: uppercase;
+        font-family: "OpenSans-Bold";
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .calendar__bot {
+        background-color:white;
+        border: 0.5px solid #EFEFEF;
+        text-align: center;
+        border-top: none;
+    }
+
+    .calendar__bot p{
+        color: #575859;
+        text-transform: uppercase;
+        font-family: "OpenSans-Bold";
+        font-size: 1.5rem;
+        padding: 5px 20px;
+    }
+
+    .runDescription {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #EFEFEF;
+        width: 80%;
+    }
+
+    .runDescription p {
+        font-family: "OpenSans-SemiBold";
+        font-size: 1rem;
+    }
+
+    .runDescription span {
+        width: 50%;
+    }
+
+    .runDescription>img {
+        width: 5%;
+    }
+
+    .pays {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pays img {
+        width: 80%;
+    }
+
+    .pays p {
+        text-transform: uppercase;
+        font-size: 0.5rem;
+        font-family: "OpenSans-SemiBold";
+        text-align: center;
+    }
+
+
+
+    .zoom {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .zoom p {
+        font-family: "OpenSans-SemiBold";
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .zoom img {
+        width: 100%;
+    }
+
+    .nextRun .link{
+        width: 80%;    
+    }
+
+    .link {
+        text-align: right;
+    }
+
+    .link a {
+        border-bottom: 3px solid #575859;
+        font-family: "OpenSans-SemiBold";
+        font-size: 0.8rem;
+        color: #575859;
+    }
+
 /*
     Contact
 */
