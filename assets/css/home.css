@@ -13,7 +13,8 @@ section:nth-of-type(2n+1) {
 }
 
 .content {
-    width: 60%;
+    width: 95%;
+    max-width: 1000px;
     margin: 0 auto; 
     padding: 2.5rem 0;
 }
@@ -44,14 +45,14 @@ section:nth-of-type(2n+1) {
 .gallery {
     display:flex;
     display: -webkit-flex;
-        display: -moz-flex;
+    display: -moz-flex;
     align-items: center;
 }
 
 .gallery__left {
     display:flex;
     display: -webkit-flex;
-        display: -moz-flex;
+    display: -moz-flex;
     flex-wrap:wrap;
     align-items: center;
     
@@ -62,11 +63,12 @@ section:nth-of-type(2n+1) {
 }
 
 .gallery__right {
-
+    width: 100%;
 }
 
 .actualite__item {
     position:relative;
+    width: 50%;
 }
 
 .actualite__item figcaption{

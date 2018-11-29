@@ -45,7 +45,7 @@
                 <div class="gallery__right">
                     <figure class="actualite__item">
                             <img src="./../assets/img/home/image5accueil.png" alt="image5">
-                            <figcaption><img class="journal" src="./../assets/img/home/newspaper.svg" alt="journal">Saison 2016: le portrait de Thomas Voeckler</figcaption>
+                            <figcaption><!--<img class="journal" src="./../assets/img/home/newspaper.svg" alt="journal"> -->Saison 2016: le portrait de Thomas Voeckler</figcaption>
                         </figure>
                 </div>
 
