@@ -1,28 +1,45 @@
 <footer>
-    <div>
-        <div id="footer1">
-            <div id="Xavier_1">
-            <img src="./../assets/img/imagefooter.png"> 
-                <div class="texte_case1">
-                    <h4>Xavier Caïtucoli</h4>
-                    <span class="PDG">PDG de Direct Energie</span>
-                    <p>"Choisir le cyclisme à travers cette équipe chère aux français, est pour nous une évidence..."</p>
+        <section id="footer1">
+                <div class="content">
+                        <div id="Xavier_1">
+                                <img src="./../assets/img/imagefooter.png" class="imagefoot">
+                                <article class="art_1">
+                                        <h4>Xavier Caïtucoli</h4>
+                                        <span class="PDG">PDG de Direct Energie</span>
+                                        <p class="para"> &laquo; Choisir le cyclisme à travers cette équipe chère aux
+                                                français, est
+                                                pour nous une évidence...</p>
+                                        <button class="lire_suite" type="button">lire la suite
+                                        </button>
+                                </article>
+                        </div>
+
+                        <div id="Xavier_1">
+                                <img src="./../assets/img/imagefooter2.png" class="imagefoot">
+                                <article class="art_1">
+                                        <h4>Jean-René Bernaudeau</h4>
+                                        <span class="PDG">Manager de Direct Energie Teams</span>
+                                        <p class="para">&laquo; J'ai choisi Direct Energie car je voulais un partenaire
+                                                qui
+                                                soit
+                                                séduit par le travail de fond que je...</p>
+                                                <button class="lire_suite" type="button">lire la suite
+                                        </button>
+                                </article>
+                        </div>
                 </div>
-            </div>
-            <div id="Jean_Rene">
-            <img src="./../assets/img/imagefooter2.png"> 
-            <div class="texte_case2">
-            <h4>Jean-René Bernaudeau</h4>
-            <span>Manager de Direct Energie Teams</span>
-            <p>"J'ai choisi Direct Energie car je voulais un partenaire qui soit séduit par le travail de fond que je..."</p>
-            </div>
-            </div>
-        </div>
-    </div>
-NEWSLETTER
-RESEAUX SOCIAUX
-KIT DE PRESSE
+
+        </section>
+
+        <section id="footer2">
+                <div class="content">
+                        NEWSLETTER
+                        RESEAUX SOCIAUX
+                        KIT DE PRESSE
+                </div>
+        </section>
 </footer>
 
 </body>
+
 </html>
