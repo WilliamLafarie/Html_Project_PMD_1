@@ -8,9 +8,14 @@ main {
     /*margin: 0 auto;*/
     width: 100%;
     /*max-width: 1000px;*/
-    position: relative;
-    background: linear-gradient(to bottom, #f0f6ff 24.75%,#ffffff 24.75%);
+    /*position: relative;*/
+    /*background: linear-gradient(to bottom, #f0f6ff 24.75%,#ffffff 24.75%);*/
+    background-image: url("./../img/fondcercle.png");
+    background-repeat: no-repeat;
+    background-position: -87px 0px;
+    background-size: 1720px 566px;
 }
+
 
 .contentglobal{
     margin: 0 auto;
