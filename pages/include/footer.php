@@ -48,13 +48,9 @@
                 </section>
 
                 <section id="footer2">
-                        <div class="content3">
-                                <h2>
-                                        <p class="footnew">NEWSLETTER </p>
-                                        <p class="footres"> RESEAUX SOCIAUX </p>
-                                        <p class="footkit">KIT DE PRESSE </p>
-                                </h2>
-                        </div>
+                       <div class="footer2__items">
+                           <h2></h2>
+                       </div>
                 </section>
                 <div>
 </footer>
