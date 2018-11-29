@@ -1,6 +1,6 @@
 <footer>
         <section id="footer1">
-                <div class="content">
+                <div class="content2">
                         <div id="Xavier_1">
                                 <img src="./../assets/img/imagefooter.png" class="imagefoot">
                                 <article class="art_1">
@@ -32,10 +32,10 @@
         </section>
 
         <section id="footer2">
-                <div class="content">
-                       <h2> NEWSLETTER
-                        RESEAUX SOCIAUX
-                        KIT DE PRESSE </h2>
+                <div class="content3">
+                        <h2> <span class="foot">NEWSLETTER </span>
+                                <span class="foot"> RESEAUX SOCIAUX </span>
+                                <span class="foot">KIT DE PRESSE </span> </h2>
                 </div>
         </section>
 </footer>

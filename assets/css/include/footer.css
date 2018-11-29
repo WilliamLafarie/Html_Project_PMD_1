@@ -11,7 +11,10 @@
     background-color: #38435b;
 }
 
-footer .content{
+.content2{
+    width: 65%;
+    margin: 0 auto; 
+    padding: 2.5rem 0;
     display: flex;
     justify-content: center; 
 }
@@ -80,4 +83,28 @@ h4 {
     padding-left: 5%; 
     padding-right: 5%; 
     margin-top: 2%; 
+}
+
+.content3{
+    display: flex; 
+    justify-content: space-around;
+    width: 65%;
+    margin: 0 auto; 
+    padding: 2.5rem 0; 
+}
+
+.foot{
+    display: flex;
+    justify-content: flex-start;  
+    color: aliceblue; 
+    font-size: 90%;  
+    margin-right: 30%; 
+}
+
+h2{
+    font-family: 'Montserrat-Bold';
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    font-size: 200%;
 }
