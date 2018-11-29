@@ -50,6 +50,25 @@
     font-family: 'OpenSans-Bold';
 }
 
+
+/*
+*
+* -------------------------------------------- Footer ------------------------------------------
+*
+*/
+
+.content_footer{
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+
+
 /*
 *
 * -------------------------------------------- Premier footer ------------------------------------------
@@ -61,15 +80,6 @@
     display: flex;
     justify-content: center; 
     background-color: #38435b;
-}
-
-.content_footer1{
-    width: 95%;
-    max-width: 1000px;
-    margin: 0 auto; 
-    padding: 2.5rem 0;
-    display: flex;
-    justify-content: center; 
 }
   
 #Xavier_1 {
@@ -128,25 +138,62 @@ h4 {
 */
 
 #footer2{
-    display: flex; 
-    justify-content: center; 
-    justify-content: space-evenly; 
-    align-items: center; 
     background-color: #2f3749; 
-    color: aliceblue; 
+    color:white;
+    
 }
 
-footer h2{
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between; 
-    font-family: 'Montserrat-Bold';
+.content_footer section h2 {
+    font-family: "Montserrat-ExtraBold";
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;   
+    margin-bottom: 20px;
+    word-spacing: 5px;  
 }
 
-.newsletter, .kit, .res{
+.content_footer section h2:before {
+    content: "";
+    display: block;
+    width: 3rem;
+    border-top: 3px solid #ffda00;
+    padding-top: 10px;
+}
+
+.content_footer section {
     display: flex;
-    flex-direction: column; 
-    justify-content: flex-start; 
-    color: aliceblue; 
-    width: 15%; 
+    flex-direction: column;
+}
+
+.content_footer section p {
+    font-family: "Nunito-Regular";
+    font-size: 0.8rem;
+    width:50%;
+
+}
+
+
+
+/* 
+*
+* ----------------------------------------- CE QU'IL FAUT FAIRE ------------------------------------------
+*
+*
+*   - Terminer le footer avec la nouvelle strucutre HTML
+*   -----------------------------------------------------------
+*   - Faire la zone mentions légales avec la classe "mentions"
+*   - /!\ il faut utiliser des <a> et leur appliquer un border-left
+*
+*   ------------------------------------------------------------
+*                  (>°-°)> TAKE OUR ENERGY (>°-°)>
+*                       On y croivent tous
+*  --> Grosse musique pour être au taquet ! https://www.youtube.com/watch?v=oHg5SJYRHA0
+*
+*/
+
+
+
+.mentions {
+    text-align: center;
+    border-top: 3px solid #ffda00;
 }
