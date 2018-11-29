@@ -3,3 +3,48 @@
 */
 
 @import url('./fonts.css');
+
+main {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1000px;
+}
+
+.contentteam{
+    margin: 0 auto;
+    width: 90%;
+    padding: 2.5rem 0;
+}
+
+.contentteam h2{
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 1.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin-bottom: 20px;
+    word-spacing: 5px;
+}
+
+.contentteam figure{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contenttop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contentbot{
+    display: flex;
+    flex-direction: row;
+}
+
+.contentteam figcaption {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito-Bold';
+    font-size: 1.2rem;
+    color: #575859;
+}

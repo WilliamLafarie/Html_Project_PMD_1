@@ -14,7 +14,8 @@ nav a{
 
 header nav{
     margin: 0 auto;
-    width: 60%;
+    width: 95%;
+    max-width: 1000px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,10 +24,5 @@ header nav{
 nav a:not(.logoheader):hover{
     border-bottom: 3px solid rgb(255, 218, 0);
 }
-/*.menu :hover{
-    border-bottom: 3px solid rgb(255, 210, 0);
-}*/
-/*nav a:active{
-    border-bottom: 3px solid rgb(255, 210, 0);
-}*/
+
 
