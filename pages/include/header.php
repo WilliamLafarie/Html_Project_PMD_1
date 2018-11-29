@@ -17,7 +17,7 @@
         <nav class="containers">
             <a href="./home.php" class="logoheader"><img src="./../assets/img/slogan.png" alt="logo"/></a>
             <a href="./home.php"><img src="./../assets/img/home/logoaccueil.png" alt="home"></a>
-            <a href="/article.php">Actualités</a>
+            <a href="./article.php">Actualités</a>
             <a href="#">Hors-course</a>
             <a href="#">Calendrier</a>
             <a href="./team.php">L'équipe 2016</a>
