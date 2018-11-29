@@ -106,6 +106,10 @@ main {
     justify-content: space-between;
 }
 
+.fiche__perso {
+    width: 50%;
+}
+
 .fiche h2{
     font-family: 'Montserrat-ExtraBold';
     font-size: 1.5rem;
@@ -125,7 +129,8 @@ main {
 
 .identite {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    
 }
 
 .identite__item p {
@@ -148,4 +153,13 @@ main {
     font-size: 1rem;
     color: #575859;
     margin: 20px 0;
+    margin-left: auto;
+}
+
+.identite__valeur p:after {
+    content: "";
+    display: block;
+    width: 3rem;
+    border-bottom: 3px solid #575859;
+    padding-bottom: 5px;
 }
