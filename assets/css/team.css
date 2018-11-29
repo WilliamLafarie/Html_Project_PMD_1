@@ -5,15 +5,24 @@
 @import url('./fonts.css');
 
 main {
+    /*margin: 0 auto;*/
+    width: 100%;
+    /*max-width: 1000px;*/
+    position: relative;
+    background: linear-gradient(to bottom, #f0f6ff 24.75%,#ffffff 24.75%);
+}
+
+.contentglobal{
     margin: 0 auto;
-    width: 95%;
     max-width: 1000px;
+    width: 95%;
 }
 
 .contentteam{
     margin: 0 auto;
     width: 90%;
     padding: 2.5rem 0;
+    z-index: 2;
 }
 
 .contentteam h2{
@@ -23,6 +32,14 @@ main {
     text-transform: uppercase;   
     margin-bottom: 20px;
     word-spacing: 5px;
+}
+
+.contentteam h2:before{
+    content: "";
+    display: block;
+    width: 4rem;
+    border-top: 3px solid #ffda00;
+    padding-top: 10px;
 }
 
 .contentteam figure{
@@ -42,9 +59,17 @@ main {
 }
 
 .contentteam figcaption {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-family: 'Nunito-Bold';
     font-size: 1.2rem;
     color: #575859;
+}
+
+.contentteam figcaption:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 2.5rem;
+    border-bottom: 2px solid #575859;
+    padding-bottom: 10px;
 }

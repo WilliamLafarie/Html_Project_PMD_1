@@ -15,12 +15,12 @@
 <body>
     <header>
         <nav class="containers">
-            <a href="#" class="logoheader"><img src="./../assets/img/slogan.png" alt="logo"/></a>
-            <a href="#"><img src="./../assets/img/home/logoaccueil.png" alt="home"></a>
-            <a href="#">Actualités</a>
+            <a href="./home.php" class="logoheader"><img src="./../assets/img/slogan.png" alt="logo"/></a>
+            <a href="./home.php"><img src="./../assets/img/home/logoaccueil.png" alt="home"></a>
+            <a href="/article.php">Actualités</a>
             <a href="#">Hors-course</a>
             <a href="#">Calendrier</a>
-            <a href="#">L'équipe 2016</a>
+            <a href="./team.php">L'équipe 2016</a>
             <a href="#">Galerie</a>
             <a href="#">Social Live</a>
             <a href="#">Partenaires</a>

@@ -25,4 +25,8 @@ nav a:not(.logoheader):hover{
     border-bottom: 3px solid rgb(255, 218, 0);
 }
 
+nav a:not(.logoheader):active{
+    border-bottom: 3px solid rgb(255, 218, 0);
+}
+
 
