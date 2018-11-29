@@ -11,7 +11,7 @@
     background-color: #38435b;
 }
 
-.content{
+footer .content{
     display: flex;
     justify-content: center; 
 }
