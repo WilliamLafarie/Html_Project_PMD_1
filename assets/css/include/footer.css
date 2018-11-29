@@ -12,7 +12,8 @@
 }
 
 .content2{
-    width: 65%;
+    width: 95%;
+    max-width: 1000px;
     margin: 0 auto; 
     padding: 2.5rem 0;
     display: flex;
@@ -43,26 +44,26 @@ h4 {
     font-family: 'Montserrat-Bold';
 }
 
-
 .PDG {
     color: #ffda00;
 }
 
-
 .imagefoot {
-    height: 142%;
+    height: 150%;
     width: 25%;
     border: solid 4px #ffda00; 
     border-radius: 100%; 
 }
 
-
 #footer2{
     height: 40%;
     background-color: #2f3749; 
 }
+
 .para{
     margin-top: 4%; 
+    font-family: "Nunito-Regular";
+    font-size: 115%; 
 }
 
 .art_1{
@@ -86,25 +87,35 @@ h4 {
 }
 
 .content3{
+    width: 95%;
+    max-width: 1000px;
     display: flex; 
-    justify-content: space-around;
-    width: 65%;
+    justify-content: space-between;
     margin: 0 auto; 
     padding: 2.5rem 0; 
 }
 
-.foot{
+.footnew, .footkit, .footres{
     display: flex;
-    justify-content: flex-start;  
     color: aliceblue; 
     font-size: 90%;  
-    margin-right: 30%; 
+    margin-left: 35%; 
+    width: 20%;
+    height: 40%; 
 }
 
 h2{
-    font-family: 'Montserrat-Bold';
     display: flex; 
     flex-direction: row; 
-    justify-content: flex-start; 
+    justify-content: space-between; 
+    width: 20%;
+    height: 40%; 
+    font-family: 'Montserrat-Bold';
     font-size: 200%;
+    margin-left: 3%; 
+}
+
+.body{
+    display: flex; 
+    flex-direction: column; 
 }
