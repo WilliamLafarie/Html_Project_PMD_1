@@ -50,6 +50,12 @@
     font-family: 'OpenSans-Bold';
 }
 
+/*
+*
+* -------------------------------------------- Premier footer ------------------------------------------
+*
+*/
+
 
 #footer1{
     display: flex;
@@ -57,7 +63,7 @@
     background-color: #38435b;
 }
 
-.content2{
+.content_footer1{
     width: 95%;
     max-width: 1000px;
     margin: 0 auto; 
@@ -74,14 +80,16 @@
     color: aliceblue; 
     margin-left: 2%; 
 }
-#Jean_Rene{
-    display: flex;
-    width: 40%;
-    height: 60%;  
-    font-family: "Montserrat-Light";
-    color: aliceblue; 
+.imagefoot {
+    height: 150%;
+    width: 25%;
+    border: solid 4px #ffda00; 
+    border-radius: 100%; 
 }
-
+.art_1{
+    margin-left: 4%; 
+    margin-right: 2%; 
+}
 h4 {
     color: aliceblue;
     font-weight: bold;
@@ -89,32 +97,14 @@ h4 {
     display: flex;
     font-family: 'Montserrat-Bold';
 }
-
 .PDG {
     color: #ffda00;
-}
-
-.imagefoot {
-    height: 150%;
-    width: 25%;
-    border: solid 4px #ffda00; 
-    border-radius: 100%; 
-}
-
-#footer2{
-    height: 40%;
-    background-color: #2f3749; 
 }
 
 .para{
     margin-top: 4%; 
     font-family: "Nunito-Regular";
     font-size: 115%; 
-}
-
-.art_1{
-    margin-left: 4%; 
-    margin-right: 2%; 
 }
 
 .lire_suite{
@@ -131,37 +121,32 @@ h4 {
     padding-right: 5%; 
     margin-top: 2%; 
 }
+/* 
+*
+* ----------------------------------------- Deuxième footer ------------------------------------------
+*
+*/
 
-.content3{
-    width: 95%;
-    max-width: 1000px;
+#footer2{
     display: flex; 
-    justify-content: space-between;
-    margin: 0 auto; 
-    padding: 2.5rem 0; 
-}
-
-.footnew, .footkit, .footres{
-    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    background-color: #2f3749; 
     color: aliceblue; 
-    font-size: 90%;  
-    margin-left: 35%; 
-    width: 20%;
-    height: 40%; 
 }
 
 footer h2{
     display: flex; 
     flex-direction: row; 
     justify-content: space-between; 
-    width: 20%;
-    height: 40%; 
     font-family: 'Montserrat-Bold';
-    font-size: 200%;
-    margin-left: 3%; 
 }
 
-.body{
-    display: flex; 
+.newsletter, .kit, .res{
+    display: flex;
     flex-direction: column; 
+    justify-content: flex-start; 
+    color: aliceblue; 
+    width: 15%; 
 }
