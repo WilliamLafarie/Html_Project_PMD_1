@@ -59,9 +59,9 @@
                 <div class="share">
                     <h2>Partager cet article</h2>
                     <div class="share__rsn">
-                       <a href=""><img src="./../assets\img\article/HC_facebookbutton.png" alt="bouton facebook"></a>
-                       <a href=""><img src="./../assets\img\article/HC_twitterbutton.png" alt="bouton twitter"></a>
-                       <a href=""><img src="./../assets\img\article/HC_googleplusbutton.png" alt="bouton googleplus"></a>
+                       <a href="https://www.facebook.com/TeamDirectEnergie/"><img src="./../assets\img\article/HC_facebookbutton.png" alt="bouton facebook"></a>
+                       <a href="https://twitter.com/TeamDEN_fr"><img src="./../assets\img\article/HC_twitterbutton.png" alt="bouton twitter"></a>
+                       <a href="https://plus.google.com/+TeamDirectEnergie"><img src="./../assets\img\article/HC_googleplusbutton.png" alt="bouton googleplus"></a>
                     </div>
                 </div>
 
