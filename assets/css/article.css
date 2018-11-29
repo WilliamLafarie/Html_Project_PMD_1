@@ -97,7 +97,7 @@ figcaption p {
     margin: 20px 0;
 }
 
-.article__text p:{
+.article__text p:first-child{
     font-weight: bold;
 }
 

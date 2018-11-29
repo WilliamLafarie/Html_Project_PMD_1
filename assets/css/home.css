@@ -174,22 +174,35 @@ section:nth-of-type(2n+1) {
 }
 
 .horsCourse__item figcaption {
-    font-family: "Nunito-Regular";
-    font-size: 1.5rem;
-    color: #575859;
     padding:0 20%;
     text-align: center;
     
 }
 
-.horsCourse__item figcaption:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 4rem;
+.horsCourse__item figcaption p {
+    font-family: "Nunito-Bold";
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #575859;
     border-bottom: 3px solid #575859;
-    padding-bottom: 20px;
+    padding: 10px 0;
 }
+
+.horsCourse__item figure:first-child img {
+    width:90%;
+}
+
+.horsCourse__item figure:first-child {
+    position: relative;
+}
+
+.horsCourse__item figure:first-child figcaption{
+    position: absolute;
+    bottom:0;
+    background-color: #575859;
+}
+
+
 
 
 /*

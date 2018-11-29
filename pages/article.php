@@ -43,11 +43,11 @@
                     Accenderat super his incitatum propositum ad nocendum aliqua mulier vilis, quae ad palatium ut poposcerat intromissa insidias ei latenter obtendi prodiderat a militibus obscurissimis.</p>
 
                     <p>In tuto iam locata mariti salute muneratam vehiculoque inpositam per regiae ianuas emisit in publicum, ut his inlecebris alios quoque ad indicanda proliceret paria vel maiora.</p>
-                </div>
+                
 
-                <img src="./../assets\img\article/image2article.png" alt="photo2">
+                     <img src="./../assets\img\article/image2article.png" alt="photo2">
 
-                <div class="article__text">
+
                     <p>Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse fateatur. 
                     Etenim eo loco, Fanni et Scaevola, locati sumus ut nos longe prospicere oporteat futuros casus rei publicae. Deflexit iam aliquantum de spatio curriculoque consuetudo maiorum.Auxerunt haec vulgi sordidioris audaciam, quod cum ingravesceret penuria commeatuum, famis et furoris inpulsu Eubuli cuiusdam inter suos clari domum ambitiosam ignibus subditis inflammavit rectoremque ut sibi iudicio imperiali addictum calcibus incessens et pugnis conculcans seminecem laniatu miserando discerpsit.</p>
 
@@ -69,7 +69,7 @@
 
                 <div class="comment">
                     <h2>Laisser un commentaire</h2>
-                    <img src="./../assets\img\article/image1facebook.png" alt="facebookTchat">
+                    <img src="./../assets\img\article/HC_facebookcomments.png" alt="facebookTchat">
                 </div>
 
                 

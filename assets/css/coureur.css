@@ -3,3 +3,149 @@
 */
 
 @import url('./fonts.css');
+
+
+main {
+
+    background: linear-gradient(to bottom, #ffde00 45%,#f0f6ff 45%,  #ffffff 45%);
+    width: 100%;
+}
+
+.content {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+}
+
+.coureur {
+    display: flex;
+    align-items: flex-start;
+}
+
+.coureur__title {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    margin-top: 30px;
+}
+
+.coureur__title .share {
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.coureur__title .share a {
+    font-family: "Nunito-Bold";
+    font-size:1rem;
+    color:#575859;
+    border-bottom: 3px solid #575859;
+    text-transform: uppercase;
+}
+
+.coureur__title h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 2.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin-bottom: 20px;
+    word-spacing: 5px;
+}
+
+.coureur__title p {
+    font-family: 'OpenSans-Regular';
+    font-size: 1rem;
+}
+
+.coureur__title p span {
+    font-family: 'OpenSans-SemiBold';
+    font-size: 1rem;
+}
+
+.coureur__rsn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;  
+    width: 80%;  
+}
+
+.coureur__rsn figure {
+    background-color: #ffd800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.coureur__rsn figcaption {
+    font-family: "Nunito-Regular";
+    font-size: 1rem;
+}
+
+.coureur__perso {
+    margin-left: auto;
+    background-color: red;
+}
+
+.perso__portrait {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.perso__portrait img {
+    width: 5%;
+}
+
+
+.fiche {
+    display:flex;
+    justify-content: space-between;
+}
+
+.fiche h2{
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 1.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin: 20px 0;
+    word-spacing: 5px;
+}
+
+.fiche h2:before{
+    content: "";
+    display: block;
+    width: 4rem;
+    border-top: 3px solid #ffda00;
+    padding-top: 10px;
+}
+
+.identite {
+    display: flex;
+    justify-content: space-between
+}
+
+.identite__item p {
+    font-family: "OpenSans-Bold";
+    font-size: 1rem;
+    color: #575859;
+    margin: 20px 0;
+}
+
+.identite__item p:after {
+    content: "";
+    display: block;
+    width: 3rem;
+    border-bottom: 3px solid #575859;
+    padding-bottom: 5px;
+}
+
+.identite__valeur p {
+    font-family: "OpenSans-SemiBold";
+    font-size: 1rem;
+    color: #575859;
+    margin: 20px 0;
+}
