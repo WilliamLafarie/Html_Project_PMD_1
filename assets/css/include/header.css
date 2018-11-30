@@ -4,7 +4,7 @@
 
 @import url('./../fonts.css');
 
-
+/* Paramètres des items du header */
 nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -12,6 +12,7 @@ nav a{
     font-size: 0.9rem;
 }
 
+/* Paramètres globaux du header */
 header nav{
     margin: 0 auto;
     width: 95%;
@@ -22,12 +23,7 @@ header nav{
     padding: 10px;
 }
 
+/* Animation au survol des items du header sauf le logo */
 nav a:not(.logoheader):hover{
     border-bottom: 3px solid rgb(255, 218, 0);
 }
-
-nav a:not(.logoheader):active{
-    border-bottom: 3px solid rgb(255, 218, 0);
-}
-
-

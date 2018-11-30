@@ -207,7 +207,15 @@
     font-size: 0.8rem;
 }
 
+.horsCourse__item figure:nth-child(3) figcaption p{
+    margin: 0 auto;
+    width: 70%;
+}
 
+.horsCourse__item figure:nth-child(4) figcaption p{
+    margin: 0 auto;
+    width: 70%;
+}
 
 
 
