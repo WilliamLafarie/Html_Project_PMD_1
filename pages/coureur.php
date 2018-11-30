@@ -48,7 +48,7 @@
 
                     <figure>
                         <figcaption></figcaption>
-                        <a href=""><img src="" alt="arrow"></a>
+                        <a href=""><img src="./../assets/img/detailCoureur/confessional.png" alt="video"></a>
                     </figure>
                      
                 </div>
@@ -117,6 +117,10 @@
 
                         <div class="more">
                             <a href="">Lire la suite</a>
+                        </div>
+
+                        <div class="trophee">
+                            <img src="./../assets/img/detailCoureur/trophee.png" alt="trophée">
                         </div>
 
                      </div>

@@ -163,7 +163,14 @@ main {
 }
 
 .palmares {
+    position: relative
+}
 
+.trophee { 
+    position: absolute;
+    background-color: #ffde00;
+    right:1rem;
+    top:1rem;;
 }
 
 .palmares__content {
