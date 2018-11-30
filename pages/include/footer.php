@@ -70,37 +70,34 @@
                                 <section>
                                         <h2>Réseaux sociaux</h2>
                                         <div class="reseau">
-                                                <div class="top">
-                                        <figure>
-                                        
-                                                <img src="./../assets/img/youtube.png" alt="youtube">
                                                 
-                                                <figcaption>youtube</figcaption>
-                                        </figure>
+                                                <figure>
+                                                
+                                                        <img src="./../assets/img/youtube.png" alt="youtube">
+                                                        
+                                                        <figcaption>youtube</figcaption>
+                                                </figure>
 
-                                        <figure>
-                                        <img src="./../assets/img/twitter.png" alt="twitter">
-                                                <figcaption>twitter</figcaption>
-                                        </figure>
+                                                <figure>
+                                                <img src="./../assets/img/twitter.png" alt="twitter">
+                                                        <figcaption>twitter</figcaption>
+                                                </figure>
 
-                                        <figure>
-                                                <img src="./../assets/img/insta.png" alt="instagram">
-                                                <figcaption>instagram</figcaption>
-                                        </figure>
-</div>
-<div class="bottom">
+                                                <figure>
+                                                        <img src="./../assets/img/insta.png" alt="instagram">
+                                                        <figcaption>instagram</figcaption>
+                                                </figure>
 
-                                        <figure>
-                                                <img src="./../assets/img/fb.png" alt="facebook">
-                                                <figcaption>facebook</figcaption>
-                                        </figure>
+                                                <figure>
+                                                        <img src="./../assets/img/fb.png" alt="facebook">
+                                                        <figcaption>facebook</figcaption>
+                                                </figure>
 
-                                        <figure>
-                                                <img src="./../assets/img/google.png" alt="google+">
-                                                <figcaption>google+</figcaption>
-                                        </figure>
-</div>
-</div>
+                                                <figure>
+                                                        <img src="./../assets/img/google.png" alt="google+">
+                                                        <figcaption>google+</figcaption>
+                                                </figure>
+                                        </div>
                                 </section>
 
                                 <section>

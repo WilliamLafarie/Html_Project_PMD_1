@@ -67,7 +67,7 @@
                         <p>Poids</p>
                     </div>
                     <div class="identite__valeur">
-                        <p>36 ans</p>
+                        <p>39 ans</p>
                         <p>22 juin 1979</p>
                         <p>Schiltigheim (France)</p>
                         <p>1m77</p>
@@ -76,10 +76,46 @@
                 </div>
                 <div class="palmares">
                     <h2>Palmarès</h2>
-                </div>
-                
-                div
+                     <div class="palmares__content">
+                     <div class="more">
+                            <p>2015</p>
+                        </div>
 
+                        <div class="palmares__text">
+                            <img src="./../assets/img/home/next.svg" alt="arrow">
+                            <p>2ème du Tour du Gévaudan</p>
+                        </div>
+
+                         <div class="palmares__text">
+                            <img src="./../assets/img/home/next.svg" alt="arrow">
+                            <p>2ème de l'étape une du Tour du Gévaudan</p>
+                        </div>
+
+                         <div class="palmares__text">
+                            <img src="./../assets/img/home/next.svg" alt="arrow">
+                            <p>3ème du Tour du Yorkshire</p>
+                        </div>
+
+                         <div class="palmares__text">
+                            <img src="./../assets/img/home/next.svg" alt="arrow">
+                            <p>2ème de l'étape une du Tour du Gévaudan</p>
+                        </div>
+
+                         <div class="palmares__text">
+                            <img src="./../assets/img/home/next.svg" alt="arrow">
+                            <p>3ème de l'étape quatre du Tour de la Sarthe - Pays de la Loire</p>
+                        </div>
+
+                        <div class="more">
+                            <a href="">Lire la suite</a>
+                        </div>
+
+                     </div>
+
+                    
+
+                    
+                </div>
             </div>
             
             <div class="playlist">

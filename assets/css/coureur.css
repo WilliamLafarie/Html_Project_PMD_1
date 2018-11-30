@@ -163,3 +163,59 @@ main {
     border-bottom: 3px solid #575859;
     padding-bottom: 5px;
 }
+
+.palmares {
+
+}
+
+.palmares__content {
+    background-color: #ffd800;
+}
+
+.palmares__content h3 {
+    font-family: "Nunito-Bold";
+    font-size: 1rem;
+    color: #575859;
+    margin: 20px 0;
+}
+
+.palmares__content h3:after {
+    content: "";
+    display: block;
+    width: 4rem;
+    border-bottom: 2px solid #575859;
+    padding-top: 10px;
+}
+
+
+
+.palmares__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.palmares__text p {
+    font-family: "Nunito-Regular";
+    font-size: 0.8rem;
+
+}
+
+.palmares__text img {
+    width: 3%;
+    margin: 3px 10px;
+}
+
+.more { 
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.more a {
+    font-family: "Nunito-Bold";
+    font-size:0.8rem;
+    color:#575859;
+    border-bottom: 3px solid #575859;
+    text-transform: uppercase;
+}

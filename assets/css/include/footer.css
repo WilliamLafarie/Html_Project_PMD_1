@@ -206,21 +206,13 @@ margin: 20%;
 
 .reseau{
     display:flex; 
-    flex-direction: row; 
     flex-wrap: wrap; 
+    justify-content: flex-start;
+    width: 50%;
 }
 
-.top{
-    display:flex; 
-    flex-direction: row; 
-    justify-content: space-between; 
-}
-
-.bottom{
-display:flex; 
-    justify-content: space-between; 
-    flex-direction: column; 
-
+.reseau figure {
+    margin: 0 10px; 
 }
 
 input[type="submit"], input[type="email"]{
