@@ -143,7 +143,7 @@
                     
                     <div class="runDescription">
                         <div class="pays">
-                            <img src="./../assets/img/home/canada.svg" alt="">
+                            <img src="./../assets/img/home/canada.svg" alt="canada">
                             <p>canada</p>
                         </div>
 
@@ -167,7 +167,7 @@
 
                     <div class="runDescription">
                         <div class="pays">
-                            <img src="./../assets/img/home/belgium.svg" alt="">
+                            <img src="./../assets/img/home/belgium.svg" alt="belgique">
                             <p>Belgique</p>
                         </div>
 
@@ -191,7 +191,7 @@
 
                     <div class="runDescription">
                         <div class="pays">
-                            <img src="./../assets/img/home/france.svg" alt="">
+                            <img src="./../assets/img/home/france.svg" alt="france">
                             <p>France</p>
                         </div>
 
@@ -215,7 +215,7 @@
 
                     <div class="runDescription">
                         <div class="pays">
-                            <img src="./../assets/img/home/spain.svg" alt="">
+                            <img src="./../assets/img/home/spain.svg" alt="espagne">
                             <p>Espagne</p>
                         </div>
 
@@ -239,7 +239,7 @@
 
                     <div class="runDescription">
                         <div class="pays">
-                            <img src="./../assets/img/home/france.svg" alt="">
+                            <img src="./../assets/img/home/france.svg" alt="france">
                             <p>France</p>
                         </div>
 
@@ -258,7 +258,7 @@
                 <h2>Zoom sur le tour d'espagne</h2>
                 <article>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae consequuntur quidem nisi. Pariatur aliqu...</p>
-                    <img src="./../assets/img/home/image10accueil.png" alt="">
+                    <img src="./../assets/img/home/image10accueil.png" alt="photoCycliste">
                     <div class ="link">
                         <a href="">Découvrir la course</a>
                     </div>

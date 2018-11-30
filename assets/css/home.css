@@ -11,12 +11,7 @@
 .actualite {
     background-color:#f0f6ff;
 }
-.content {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto; 
-    padding: 2.5rem 0;
-}
+
 
 .content h2 {
     font-family: "Montserrat-ExtraBold";
