@@ -27,23 +27,6 @@ main {
     padding: 2.5rem 0;
 }
 
-.content h2:before {
-    content: "";
-    display: block;
-    width: 4rem;
-    border-top: 3px solid #ffda00;
-    padding-top: 10px;
-}
-
-.content h2 {
-    font-family: "Montserrat-ExtraBold";
-    font-size: 1.5rem;
-    color: #575859;
-    text-transform: uppercase;   
-    margin-bottom: 20px;
-    word-spacing: 5px;    
-}
-
 /* Première ligne de la page */
 .firstline {
     display: flex;

@@ -111,23 +111,6 @@ main {
     width: 50%;
 }
 
-.fiche h2{
-    font-family: 'Montserrat-ExtraBold';
-    font-size: 1.5rem;
-    color: #575859;
-    text-transform: uppercase;   
-    margin: 20px 0;
-    word-spacing: 5px;
-}
-
-.fiche h2:before{
-    content: "";
-    display: block;
-    width: 4rem;
-    border-top: 3px solid #ffda00;
-    padding-top: 10px;
-}
-
 .identite {
     display: flex;
     justify-content: space-between;
@@ -170,7 +153,7 @@ main {
     position: absolute;
     background-color: #ffde00;
     right:1rem;
-    top:1rem;;
+    top:2rem;;
 }
 
 .palmares__content {
@@ -235,24 +218,6 @@ main {
     text-transform: uppercase;
 }
 
-
-.who h2{
-    font-family: 'Montserrat-ExtraBold';
-    font-size: 1.5rem;
-    color: #575859;
-    text-transform: uppercase;   
-    margin: 20px 0;
-    word-spacing: 5px;
-}
-
-.who h2:before{
-    content: "";
-    display: block;
-    width: 4rem;
-    border-top: 3px solid #ffda00;
-    padding-top: 10px;
-}
-
 .who article {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
@@ -270,23 +235,6 @@ main {
 
 .actuCoureur {
     background-color:#f0f6ff;
-}
-
-.actuCoureur h2{
-    font-family: 'Montserrat-ExtraBold';
-    font-size: 1.5rem;
-    color: #575859;
-    text-transform: uppercase;   
-    margin: 20px 0;
-    word-spacing: 5px;
-}
-
-.actuCoureur h2:before{
-    content: "";
-    display: block;
-    width: 4rem;
-    border-top: 3px solid #ffda00;
-    padding-top: 10px;
 }
 
 .actuCoureur__news {

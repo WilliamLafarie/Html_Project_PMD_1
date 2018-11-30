@@ -29,23 +29,6 @@ main {
     z-index: 2;
 }
 
-.contentteam h2{
-    font-family: 'Montserrat-ExtraBold';
-    font-size: 1.5rem;
-    color: #575859;
-    text-transform: uppercase;   
-    margin-bottom: 20px;
-    word-spacing: 5px;
-}
-
-.contentteam h2:before{
-    content: "";
-    display: block;
-    width: 4rem;
-    border-top: 3px solid #ffda00;
-    padding-top: 10px;
-}
-
 .contentteam figure{
     margin-top: 15px;
     margin-bottom: 15px;
