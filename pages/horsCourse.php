@@ -14,7 +14,7 @@
 
     <div class="contentglobal">
         <div class="content">
-        <h2>HORS-COURSE</h2>
+            <h2>HORS-COURSE</h2>
             <section class="line">
 
                 <figure class="iconeline">
@@ -46,7 +46,7 @@
                 </figure>
 
                 <img src="./../assets/img/home/next.svg" alt="next">
-            
+
             </section>
         </div>
 
@@ -81,7 +81,7 @@
                 </figure>
 
                 <img src="./../assets/img/home/next.svg" alt="next">
-            
+
             </section>
         </div>
 

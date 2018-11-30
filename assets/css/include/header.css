@@ -5,7 +5,7 @@
 @import url('./../fonts.css');
 
 /* Paramètres des items du header */
-nav a{
+nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: 'Nunito-Regular';
@@ -13,7 +13,7 @@ nav a{
 }
 
 /* Paramètres globaux du header */
-header nav{
+header nav {
     margin: 0 auto;
     width: 95%;
     max-width: 1000px;
@@ -24,7 +24,7 @@ header nav{
 }
 
 /* Animation au survol des items du header sauf le logo */
-nav a:not(.logoheader):hover{
+nav a:not(.logoheader):hover {
     border-bottom: 3px solid rgb(255, 218, 0);
 }
 
@@ -40,9 +40,9 @@ nav a:not(.logoheader):hover{
     font-family: "Montserrat-ExtraBold";
     font-size: 1.5rem;
     color: #575859;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     margin: 30px 0;
-    word-spacing: 5px;   
+    word-spacing: 5px;
 }
 
 .content {

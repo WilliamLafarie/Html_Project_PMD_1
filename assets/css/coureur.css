@@ -7,7 +7,7 @@
 
 main {
 
-    background: linear-gradient(to bottom, #ffde00 28%,#f0f6ff 28%,  #ffffff 28%);
+    background: linear-gradient(to bottom, #ffde00 28%, #f0f6ff 28%, #ffffff 28%);
     width: 100%;
 }
 
@@ -30,8 +30,8 @@ main {
 
 .coureur__title .share a {
     font-family: "Nunito-Bold";
-    font-size:1rem;
-    color:#575859;
+    font-size: 1rem;
+    color: #575859;
     border-bottom: 3px solid #575859;
     text-transform: uppercase;
 }
@@ -40,7 +40,7 @@ main {
     font-family: 'Montserrat-ExtraBold';
     font-size: 2.5rem;
     color: #575859;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     margin-bottom: 20px;
     word-spacing: 5px;
 }
@@ -58,19 +58,19 @@ main {
 .coureur__rsn {
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;  
-    width: 80%;  
+    margin-top: 3rem;
+    width: 80%;
 }
 
 .coureur__rsn figure {
     background-color: #ffd800;
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
     padding: 20px;
     width: 100px;
     height: 100px;
-    
+
 }
 
 .coureur__rsn figcaption {
@@ -80,7 +80,6 @@ main {
 
 .coureur__perso {
     margin-left: auto;
-    background-color: red;
 }
 
 .perso__portrait {
@@ -95,7 +94,7 @@ main {
 
 
 .fiche {
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -106,7 +105,7 @@ main {
 .identite {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .identite__data {
@@ -126,26 +125,27 @@ main {
     width: 3rem;
     border-bottom: 3px solid #575859;
     padding-bottom: 5px;
-    
+
 }
 
 .identite__data tr td:last-child {
     font-family: "Nunito-Bold";
     font-size: 1rem;
     color: #b1b1b1;
-    padding:10px;
-    
+    padding: 10px;
+
 }
 
 .palmares {
     position: relative
 }
 
-.trophee { 
+.trophee {
     position: absolute;
     background-color: #ffde00;
-    right:1rem;
-    top:2rem;;
+    right: 1rem;
+    top: 2rem;
+    ;
 }
 
 .palmares__content {
@@ -196,7 +196,7 @@ main {
     margin: 3px 10px;
 }
 
-.more { 
+.more {
     display: flex;
     justify-content: flex-end;
     padding: 20px;
@@ -204,15 +204,17 @@ main {
 
 .more a {
     font-family: "Nunito-Bold";
-    font-size:0.8rem;
-    color:#575859;
+    font-size: 0.8rem;
+    color: #575859;
     border-bottom: 3px solid #575859;
     text-transform: uppercase;
 }
 
 .who article {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
     column-count: 2;
 }
 
@@ -226,7 +228,7 @@ main {
 }
 
 .actuCoureur {
-    background-color:#f0f6ff;
+    background-color: #f0f6ff;
 }
 
 .actuCoureur__news {
@@ -235,21 +237,18 @@ main {
 }
 
 .news__item {
-    position:relative;
+    position: relative;
     width: 50%;
 }
-.news__item figcaption{
+
+.news__item figcaption {
     background-color: #ffda00;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
     bottom: 10%;
-    width:80%;
+    width: 80%;
     font-family: "OpenSans-SemiBold";
     font-size: 1rem;
     text-align: center;
 }
-
-
-
-

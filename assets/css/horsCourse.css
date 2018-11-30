@@ -13,7 +13,7 @@ main {
 }
 
 /* Paramètres du contenu global avec background */
-.contentglobal{
+.contentglobal {
     background-image: url('./../img/fondcercledeux');
     background-repeat: no-repeat;
     background-position: 0px 100%;
@@ -34,7 +34,7 @@ main {
 
 /* Paramètres de chaque section*/
 .line {
-/* Première ligne de la page */
+    /* Première ligne de la page */
 
     display: flex;
     display: -webkit-flex;
@@ -47,7 +47,7 @@ main {
 
 /* Paramètres de chaque élément de chaque section */
 .line figure {
-    background-color:#ffd500;
+    background-color: #ffd500;
     width: 225px;
     height: 225px;
     display: flex;
@@ -74,39 +74,40 @@ main {
 }
 
 /* Paramètres du texte du premier élément de la deuxième section */
-.content:nth-child(2) figure:first-child figcaption p{
+.content:nth-child(2) figure:first-child figcaption p {
     margin: 0 auto;
     width: 70%;
 }
 
 /* Paramètres du texte du premier élément de la troisième section */
-.content:nth-child(3) figure:first-child figcaption p{
+.content:nth-child(3) figure:first-child figcaption p {
     margin: 0 auto;
     width: 70%;
 }
 
 /* Paramètres de chaque élément de chaque section excepté le premier */
 .line figure:not(.iconeline) {
-    position:relative;
+    position: relative;
 }
 
 /* Paramètres du contenu de chaque élément de chaque section excepté le premier */
-.line figure:not(.iconeline) figcaption{
+.line figure:not(.iconeline) figcaption {
     position: absolute;
     background-color: #575859;
     bottom: 10px;
     right: 10px;
-    left: 10px;;
+    left: 10px;
+    ;
 }
 
 /* Paramètres du texte du contenu de chaque élément de chaque section excepté le premier */
-.line figure:not(.iconeline) figcaption p{
-    color:white;
+.line figure:not(.iconeline) figcaption p {
+    color: white;
     font-size: 0.8rem;
 }
 
 /* Paramètres des images de chaque section excepté la première */
-.line figure:not(.iconeline) img{
+.line figure:not(.iconeline) img {
     width: 91%;
 }
 

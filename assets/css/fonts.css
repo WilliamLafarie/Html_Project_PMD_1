@@ -1,65 +1,64 @@
 @font-face {
-    font-family: "Montserrat-Bold";
-    src: url("./../fonts/Montserrat-Bold.ttf");
-    font-weight: normal;
-    font-style: normal;
-   }
+   font-family: "Montserrat-Bold";
+   src: url("./../fonts/Montserrat-Bold.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
 
 @font-face {
-    font-family: "Montserrat-ExtraBold";
-    src: url("./../fonts/Montserrat-ExtraBold.ttf");
-    font-weight: normal;
-    font-style: normal;
-   }
-   
-@font-face {
-    font-family: "Montserrat-Light";
-    src: url("./../fonts/Montserrat-Light.ttf");
-    font-weight: normal;
-    font-style: normal;
-   }
+   font-family: "Montserrat-ExtraBold";
+   src: url("./../fonts/Montserrat-ExtraBold.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
 
 @font-face {
-    font-family: "Nunito-Regular";
-    src: url("./../fonts/Nunito-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-   }
+   font-family: "Montserrat-Light";
+   src: url("./../fonts/Montserrat-Light.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Nunito-Regular";
+   src: url("./../fonts/Nunito-Regular.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
 
 
 @font-face {
-    font-family: "Nunito-Bold";
-    src: url("./../fonts/Nunito-Bold.ttf");
-    font-weight: normal;
-    font-style: normal;
-   }
+   font-family: "Nunito-Bold";
+   src: url("./../fonts/Nunito-Bold.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
 
 @font-face {
-    font-family: "Nunito-Light";
-    src: url("./../fonts/Nunito-Light.ttf");
-    font-weight: normal;
-    font-style: normal;
-   }
+   font-family: "Nunito-Light";
+   src: url("./../fonts/Nunito-Light.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
 
 @font-face {
-    font-family: "Nunito-Regular";
-    src: url("./../fonts/Nunito-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-   }
+   font-family: "Nunito-Regular";
+   src: url("./../fonts/Nunito-Regular.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
 
 @font-face {
-    font-family:"OpenSans-Regular";
-    src: url("./../fonts/OpenSans-Regular.ttf")
- }
+   font-family: "OpenSans-Regular";
+   src: url("./../fonts/OpenSans-Regular.ttf")
+}
 
 @font-face {
-    font-family:"OpenSans-SemiBold";
-    src: url("./../fonts/OpenSans-SemiBold.ttf")
- }
+   font-family: "OpenSans-SemiBold";
+   src: url("./../fonts/OpenSans-SemiBold.ttf")
+}
 
- @font-face {
-    font-family:"OpenSans-Bold";
-    src: url("./../fonts/OpenSans-Bold.ttf")
- }
-
+@font-face {
+   font-family: "OpenSans-Bold";
+   src: url("./../fonts/OpenSans-Bold.ttf")
+}

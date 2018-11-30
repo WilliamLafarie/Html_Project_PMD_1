@@ -17,93 +17,93 @@
             <h2>L'ÉQUIPE > LES COUREURS</h2>
             <div class="contenttop">
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Jérôme Cousin</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Antoine Duchesne</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Jérôme Cousin</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Antoine Duchesne</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Jérôme Cousin</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Antoine Duchesne</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Jérôme Cousin</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Antoine Duchesne</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Jérôme Cousin</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Antoine Duchesne</figcaption>
                 </figure>
             </div>
             <div class="contentbot">
                 <figure class="last">
-                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
+                    <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur" /></a>
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure class="last">
-                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur" /></a>
                     <figcaption>Thomas Voeckler</figcaption>
                 </figure>
             </div>

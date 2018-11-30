@@ -205,7 +205,7 @@ h4 {
 
 .content_footer2 img {
     width: 22px;
-    
+
 
 }
 
@@ -256,23 +256,23 @@ input[type="email"] {
     background-color: #3c465f;
 }
 
-.pdf{
-    display:flex; 
-    width: 50%; 
-    align-items: flex-start; 
+.pdf {
+    display: flex;
+    width: 50%;
+    align-items: flex-start;
     border: solid thin white;
     background-color: transparent;
     margin-top: 3%;
     color: white;
-    padding: 3%; 
-    
+    padding: 3%;
+
 }
 
-#doss{
-    display: flex; 
+#doss {
+    display: flex;
     color: white;
     font-family: "Montserrat-Light";
-    padding-left:6%; 
+    padding-left: 6%;
 
 }
 
@@ -301,21 +301,23 @@ input[type="email"] {
     border-top: 3px solid #ffda00;
 }
 
-#mentions{
-    display: flex; 
-    justify-content: center; 
+#mentions {
+    display: flex;
+    justify-content: center;
 }
-#ff{
-    color: aliceblue; 
-    margin: 1%; 
-    padding-left: 1%; 
+
+#ff {
+    color: aliceblue;
+    margin: 1%;
+    padding-left: 1%;
     border-left: solid thin white;
     word-spacing: 1px;
     font-family: "Montserrat-Light";
 }
-#f1{
-    color: aliceblue; 
-    margin-top: 1%; 
+
+#f1 {
+    color: aliceblue;
+    margin-top: 1%;
     word-spacing: 1px;
     font-family: "Montserrat-Light";
 }

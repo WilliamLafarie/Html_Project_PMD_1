@@ -5,11 +5,11 @@
 @import url('./fonts.css');
 
 /*
-    Actualité
+    SECTION Actualité
 */
 
 .actualite {
-    background-color:#f0f6ff;
+    background-color: #f0f6ff;
 }
 
 
@@ -17,9 +17,9 @@
     font-family: "Montserrat-ExtraBold";
     font-size: 1.5rem;
     color: #575859;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     margin-bottom: 20px;
-    word-spacing: 5px;    
+    word-spacing: 5px;
 }
 
 .content h2:before {
@@ -33,27 +33,27 @@
 .content h2 span {
     font-family: "OpenSans-Bold";
     text-transform: none;
-    
+
 }
 
 .gallery {
-    display:flex;
+    display: flex;
     display: -webkit-flex;
     display: -moz-flex;
     align-items: center;
 }
 
 .gallery__left {
-    display:flex;
+    display: flex;
     display: -webkit-flex;
     display: -moz-flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
-    
+
 }
 
-.gallery__left img{
-    margin :5px;
+.gallery__left img {
+    margin: 5px;
 }
 
 .gallery__right {
@@ -61,17 +61,17 @@
 }
 
 .actualite__item {
-    position:relative;
+    position: relative;
     width: 50%;
 }
 
-.actualite__item figcaption{
+.actualite__item figcaption {
     background-color: #ffda00;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
     bottom: 10%;
-    width:80%;
+    width: 80%;
     font-family: "OpenSans-SemiBold";
     font-size: 1rem;
     text-align: center;
@@ -83,18 +83,18 @@
     background-color: #ffd500;
 }
 
-.actualite__item .camera img{
+.actualite__item .camera img {
     width: 2rem;
 }
 
-.journal{
+.journal {
     width: 2rem;
 }
 
 
 
 /*
-    Discover
+    SECTION Discover
 */
 
 .discover__item {
@@ -143,11 +143,11 @@
 
 
 /*
-    horsCourse
+    SECTION horsCourse
 */
 
 .horsCourse {
-    background-color:#f0f6ff;
+    background-color: #f0f6ff;
 }
 
 .horsCourse__item {
@@ -159,7 +159,7 @@
 }
 
 .horsCourse__item figure {
-    background-color:#ffd500;
+    background-color: #ffd500;
     width: 240px;
     height: 240px;
     display: flex;
@@ -168,12 +168,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .horsCourse__item figcaption {
     text-align: center;
-    
+
 }
 
 .horsCourse__item figcaption p {
@@ -186,29 +186,30 @@
 }
 
 .horsCourse__item figure:first-child {
-    position:relative;
+    position: relative;
 
 }
 
-.horsCourse__item figure:first-child figcaption{
+.horsCourse__item figure:first-child figcaption {
     position: absolute;
     background-color: #575859;
     bottom: 10px;
     right: 10px;
-    left: 10px;;
+    left: 10px;
+    ;
 }
 
-.horsCourse__item figure:first-child figcaption p{
-    color:white;
+.horsCourse__item figure:first-child figcaption p {
+    color: white;
     font-size: 0.8rem;
 }
 
-.horsCourse__item figure:nth-child(3) figcaption p{
+.horsCourse__item figure:nth-child(3) figcaption p {
     margin: 0 auto;
     width: 70%;
 }
 
-.horsCourse__item figure:nth-child(4) figcaption p{
+.horsCourse__item figure:nth-child(4) figcaption p {
     margin: 0 auto;
     width: 70%;
 }
@@ -216,151 +217,143 @@
 
 
 /*
-    Informations
+    SECTION Informations
 */
 
-    .--modifier {
-        display: flex;
-        display: -webkit-flex;
-        display: -moz-flex;
-        justify-content: space-around;
-        align-items: center;
-        flex: 1;
-        
-    }
+.--modifier {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
 
-    .nextRun {
-        display: flex;
-        display: -webkit-flex;
-        display: -moz-flex;
-        flex-direction: column;
-        flex:1;
-    }
+}
 
-    .run {
-        display: flex;
-        display: -webkit-flex;
-        display: -moz-flex;
-        justify-content: space-between;
-        width: 80%;
-        margin: 5px 0;
+.nextRun {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    flex: 1;
+}
 
-    }
+.run {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5px 0;
 
-    .calendar {
-        
-    }
+}
 
-    .calendar__top {
-        background-color:#ffd500;
-        border: 0.5px solid #EFEFEF;
-        border-bottom: none;
-        text-align: center;
-    }
+.calendar__top {
+    background-color: #ffd500;
+    border: 0.5px solid #EFEFEF;
+    border-bottom: none;
+    text-align: center;
+}
 
-    .calendar__top p{
-        color: #575859;
-        text-transform: uppercase;
-        font-family: "OpenSans-Bold";
-        font-size: 0.8rem;
-        padding: 5px;
-    }
+.calendar__top p {
+    color: #575859;
+    text-transform: uppercase;
+    font-family: "OpenSans-Bold";
+    font-size: 0.8rem;
+    padding: 5px;
+}
 
-    .calendar__bot {
-        background-color:white;
-        border: 0.5px solid #EFEFEF;
-        text-align: center;
-        border-top: none;
-    }
+.calendar__bot {
+    background-color: white;
+    border: 0.5px solid #EFEFEF;
+    text-align: center;
+    border-top: none;
+}
 
-    .calendar__bot p{
-        color: #575859;
-        text-transform: uppercase;
-        font-family: "OpenSans-Bold";
-        font-size: 1.5rem;
-        padding: 5px 20px;
-    }
+.calendar__bot p {
+    color: #575859;
+    text-transform: uppercase;
+    font-family: "OpenSans-Bold";
+    font-size: 1.5rem;
+    padding: 5px 20px;
+}
 
-    .runDescription {
-        display: flex;
-        display: -webkit-flex;
-        display: -moz-flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #EFEFEF;
-        width: 80%;
-        
-    }
+.runDescription {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EFEFEF;
+    width: 80%;
 
-    .runDescription p {
-        font-family: "OpenSans-SemiBold";
-        font-size: 1rem;
-    }
+}
 
-    .runDescription span {
-        width: 50%;
-    }
+.runDescription p {
+    font-family: "OpenSans-SemiBold";
+    font-size: 1rem;
+}
 
-    .runDescription>img {
-        width: 5%;
-    }
+.runDescription span {
+    width: 50%;
+}
 
-    .pays {
-        display: flex;
-        display: -webkit-flex;
-        display: -moz-flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.runDescription>img {
+    width: 5%;
+}
 
-    .pays img {
-        max-height: 50px;
-    }
+.pays {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .pays p {
-        text-transform: uppercase;
-        font-size: 0.5rem;
-        font-family: "OpenSans-SemiBold";
-        text-align: center;
-    }
+.pays img {
+    max-height: 50px;
+}
+
+.pays p {
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    font-family: "OpenSans-SemiBold";
+    text-align: center;
+}
 
 
 
-    .zoom {
-        display:flex;
-        display: -webkit-flex;
-        display: -moz-flex;
-        flex-direction: column;
-        justify-content: center;
-        flex:1;
-    }
+.zoom {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
 
-    .zoom p {
-        font-family: "OpenSans-SemiBold";
-        font-size: 1rem;
-        margin: 10px 0;
-    }
+.zoom p {
+    font-family: "OpenSans-SemiBold";
+    font-size: 1rem;
+    margin: 10px 0;
+}
 
-    .zoom img {
-        width: 100%;
-    }
+.zoom img {
+    width: 100%;
+}
 
-    .nextRun .link{
-        width: 80%;    
-        
-    }
+.nextRun .link {
+    width: 80%;
 
-    .link {
-        text-align: right;
-    }
+}
 
-    .link a {
-        border-bottom: 3px solid #575859;
-        font-family: "OpenSans-SemiBold";
-        font-size: 0.8rem;
-        color: #575859;
-    }
+.link {
+    text-align: right;
+}
 
-/*
-    Contact
-*/
+.link a {
+    border-bottom: 3px solid #575859;
+    font-family: "OpenSans-SemiBold";
+    font-size: 0.8rem;
+    color: #575859;
+}

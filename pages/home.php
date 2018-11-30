@@ -7,7 +7,6 @@
     
     // On inclut le Header
     include('./include/header.php');
-    
 ?>
 
 <main>
@@ -27,7 +26,7 @@
                         <img src="./../assets/img/home/image2accueil.png" alt="image2">
                         <figcaption class="camera"><img src="./../assets/img/home/camera.svg" alt="camera"></figcaption>
                         <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
-                        
+
                     </figure>
 
                     <figure class="actualite__item">
@@ -44,9 +43,10 @@
 
                 <div class="gallery__right">
                     <figure class="actualite__item">
-                            <img src="./../assets/img/home/image5accueil.png" alt="image5">
-                            <figcaption><img class="journal" src="./../assets/img/home/newspaper.svg" alt="journal">Saison 2016: le portrait de Thomas Voeckler</figcaption>
-                        </figure>
+                        <img src="./../assets/img/home/image5accueil.png" alt="image5">
+                        <figcaption><img class="journal" src="./../assets/img/home/newspaper.svg" alt="journal">Saison
+                            2016: le portrait de Thomas Voeckler</figcaption>
+                    </figure>
                 </div>
 
             </div>
@@ -89,36 +89,36 @@
         <div class="content">
 
             <h2>Hors-Course</h2>
-            
+
             <div class="horsCourse__item">
 
-            <figure>
+                <figure>
                     <img src="./../assets/img/home/image6accueil.png" alt="cycliste">
                     <figcaption>
-                            <p>Lorem ipsum dolor sit amet conse...</p>
+                        <p>Lorem ipsum dolor sit amet conse...</p>
                     </figcaption>
-            </figure>
+                </figure>
 
-            <figure>
+                <figure>
                     <img src="./../assets/img/home/image11accueil.png" alt="micro">
                     <figcaption>
-                            <p>Indiscrétion</p>
+                        <p>Indiscrétion</p>
                     </figcaption>
-            </figure>
+                </figure>
 
-            <figure>
+                <figure>
                     <img src="./../assets/img/home/image8accueil.png" alt="velo">
                     <figcaption>
-                            <p>Le vélo pours les nuls</p>
+                        <p>Le vélo pours les nuls</p>
                     </figcaption>
-            </figure>
+                </figure>
 
-            <figure>
+                <figure>
                     <img src="./../assets/img/home/image9accueil.png" alt="roue">
                     <figcaption>
-                            <p>Tactique & technique</p>
+                        <p>Tactique & technique</p>
                     </figcaption>
-            </figure>
+                </figure>
 
             </div>
         </div>
@@ -128,7 +128,7 @@
         <div class="content --modifier">
             <div class="nextRun">
                 <h2>Prochaines courses</h2>
-                
+
                 <div class="run">
 
                     <div class="calendar">
@@ -140,14 +140,16 @@
                             <p>28</p>
                         </div>
                     </div>
-                    
+
                     <div class="runDescription">
                         <div class="pays">
                             <img src="./../assets/img/home/canada.svg" alt="canada">
                             <p>canada</p>
                         </div>
 
-                        <span><p>Titre de la course lorem ipsum ah oui oui..</p></span>
+                        <span>
+                            <p>Titre de la course lorem ipsum ah oui oui..</p>
+                        </span>
                         <img src="./../assets/img/home/next.svg" alt="next">
 
                     </div>
@@ -171,13 +173,15 @@
                             <p>Belgique</p>
                         </div>
 
-                        <span><p>Titre de la course lorem ipsum ah oui oui..</p></span>
+                        <span>
+                            <p>Titre de la course lorem ipsum ah oui oui..</p>
+                        </span>
                         <img src="./../assets/img/home/next.svg" alt="next">
 
                     </div>
                 </div>
 
-                 <div class="run">
+                <div class="run">
 
                     <div class="calendar">
                         <div class="calendar__top">
@@ -195,7 +199,9 @@
                             <p>France</p>
                         </div>
 
-                        <span><p>Titre de la course lorem ipsum ah oui oui..</p></span>
+                        <span>
+                            <p>Titre de la course lorem ipsum ah oui oui..</p>
+                        </span>
                         <img src="./../assets/img/home/next.svg" alt="next">
 
                     </div>
@@ -219,7 +225,9 @@
                             <p>Espagne</p>
                         </div>
 
-                        <span><p>Titre de la course</p></span>
+                        <span>
+                            <p>Titre de la course</p>
+                        </span>
                         <img src="./../assets/img/home/next.svg" alt="next">
 
                     </div>
@@ -243,32 +251,35 @@
                             <p>France</p>
                         </div>
 
-                        <span><p>Titre de la course</p></span>
+                        <span>
+                            <p>Titre de la course</p>
+                        </span>
                         <img src="./../assets/img/home/next.svg" alt="next">
 
                     </div>
                 </div>
-                <div class ="link">
+                <div class="link">
                     <a href="">Toutes les courses</a>
                 </div>
-                
+
             </div>
 
             <div class="zoom">
                 <h2>Zoom sur le tour d'espagne</h2>
                 <article>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae consequuntur quidem nisi. Pariatur aliqu...</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae consequuntur quidem nisi.
+                        Pariatur aliqu...</p>
                     <img src="./../assets/img/home/image10accueil.png" alt="photoCycliste">
-                    <div class ="link">
+                    <div class="link">
                         <a href="">Découvrir la course</a>
                     </div>
-                    
+
                 </article>
 
             </div>
     </section>
 
-    
+
 
 
 

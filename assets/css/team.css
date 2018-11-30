@@ -13,14 +13,14 @@ main {
 }
 
 /* Paramètres de la zone global */
-.contentglobal{
+.contentglobal {
     margin: 0 auto;
     max-width: 1000px;
     width: 95%;
 }
 
 /* Paramètres globaux de la zone comportant du contenu*/
-.contentteam{
+.contentteam {
     margin: 0 auto;
     width: 90%;
     padding: 2.5rem 0;
@@ -29,20 +29,20 @@ main {
 
 
 /* Paramètres de marge */
-.contentteam figure{
+.contentteam figure {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 /* Paramètres des coureurs étant sur une ligne de 4 */
-.contenttop{
+.contenttop {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 /* Paramètres des deux derniers coureurs */
-.contentbot{
+.contentbot {
     display: flex;
     flex-direction: row;
 }
@@ -56,7 +56,7 @@ main {
 }
 
 /* Paramètres du trait noir en dessous du nom des coureurs*/
-.contentteam figcaption:after{
+.contentteam figcaption:after {
     content: "";
     display: block;
     margin: 0 auto;

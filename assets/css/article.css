@@ -6,7 +6,7 @@
 
 main {
 
-    background: linear-gradient(to bottom, #f0f6ff 24.75%,#ffffff 24.75%);
+    background: linear-gradient(to bottom, #f0f6ff 24.75%, #ffffff 24.75%);
     width: 100%;
 }
 
@@ -19,7 +19,7 @@ main {
     font-family: 'Montserrat-ExtraBold';
     font-size: 1.5rem;
     color: #575859;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     margin-left: 10px;
     margin-bottom: 20px;
     word-spacing: 5px;
@@ -30,25 +30,26 @@ main {
     height: 30px;
     padding: 10px;
     transform: scaleX(-1);
-    border: 1px solid #575859;;
+    border: 1px solid #575859;
+    ;
     border-radius: 50%;
 }
 
 .chapeau {
-    background-color:#38435c;
+    background-color: #38435c;
     position: relative;
 }
 
-.chapeau__text{
+.chapeau__text {
     color: #ffda00;
     font-family: "OpenSans-SemiBold";
     font-size: 1.5rem;
-    width:80%;
+    width: 80%;
     padding: 10px;
 }
 
 .chapeau figure {
-    background-color:#ffd500;
+    background-color: #ffd500;
     width: 150px;
     height: 150px;
     display: flex;
@@ -59,9 +60,9 @@ main {
     align-items: center;
     align-content: space-around;
     position: absolute;
-    right:1rem;
-    bottom:1rem;
-    
+    right: 1rem;
+    bottom: 1rem;
+
 }
 
 .chapeau figure img {
@@ -69,7 +70,7 @@ main {
 }
 
 .chapeau figcaption {
-    padding:0 20%;
+    padding: 0 20%;
     text-align: center;
 }
 
@@ -82,18 +83,18 @@ figcaption p {
     padding: 10px 0;
 }
 
-[alt = "photo1"]{
+[alt="photo1"] {
     margin-top: 10px;
 }
 
-.article__text p{
+.article__text p {
     font-family: "Nunito-Regular";
     font-size: 1rem;
     text-align: justify;
     margin: 20px 0;
 }
 
-.article__text p:first-child{
+.article__text p:first-child {
     font-weight: bold;
 }
 
@@ -134,4 +135,3 @@ figcaption p {
     background-color: #df4a32;
 }
  */
-

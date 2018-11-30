@@ -72,27 +72,32 @@
                                 <div class="reseau">
                                         <figure>
 
-                                                <a href="https://www.youtube.com/channel/UC2fDRrhZe0cg_ugurpiRjgQ"><img src="./../assets/img/youtube.png" alt="youtube"></a>
+                                                <a href="https://www.youtube.com/channel/UC2fDRrhZe0cg_ugurpiRjgQ"><img
+                                                                src="./../assets/img/youtube.png" alt="youtube"></a>
                                                 <figcaption>youtube</figcaption>
                                         </figure>
 
                                         <figure>
-                                                <a href="https://twitter.com/TeamDEN_fr"><img src="./../assets/img/twitter.png" alt="twitter"></a>
+                                                <a href="https://twitter.com/TeamDEN_fr"><img src="./../assets/img/twitter.png"
+                                                                alt="twitter"></a>
                                                 <figcaption>twitter</figcaption>
                                         </figure>
 
                                         <figure>
-                                                <a href="https://www.instagram.com/teamdirectenergieofficiel/"><img src="./../assets/img/insta.png" alt="instagram"></a>
+                                                <a href="https://www.instagram.com/teamdirectenergieofficiel/"><img src="./../assets/img/insta.png"
+                                                                alt="instagram"></a>
                                                 <figcaption>instagram</figcaption>
                                         </figure>
 
                                         <figure class="fb">
-                                                <a href="https://www.facebook.com/TeamDirectEnergie/"><img src="./../assets/img/fb.png" alt="facebook"></a>
+                                                <a href="https://www.facebook.com/TeamDirectEnergie/"><img src="./../assets/img/fb.png"
+                                                                alt="facebook"></a>
                                                 <figcaption>facebook</figcaption>
                                         </figure>
 
                                         <figure class="gg">
-                                                <a href="https://plus.google.com/+TeamDirectEnergie"><img src="./../assets/img/google.png" alt="google+"></a>
+                                                <a href="https://plus.google.com/+TeamDirectEnergie"><img src="./../assets/img/google.png"
+                                                                alt="google+"></a>
                                                 <figcaption>google+</figcaption>
                                         </figure>
                                 </div>
@@ -113,10 +118,11 @@
                 <p class="mentions">
                         <div id="mentions">
 
-                        <a href="" id="f1"> &copy; Direct energie Team 2016 Tous Droits Réservés </a>
-                        <a href="http://www.teamdirectenergie.com/mentions-legales/" id="ff">Mentions Légales </a>
-                        <a href="http://www.clementrobillard.fr/" id="ff">Création du site internet </a>
-</div>
+                                <a href="" id="f1"> &copy; Direct energie Team 2016 Tous Droits Réservés </a>
+                                <a href="http://www.teamdirectenergie.com/mentions-legales/" id="ff">Mentions Légales
+                                </a>
+                                <a href="http://www.clementrobillard.fr/" id="ff">Création du site internet </a>
+                        </div>
                 </p>
 
         </section>
