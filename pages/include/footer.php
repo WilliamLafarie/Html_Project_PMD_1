@@ -17,7 +17,7 @@
         <section id="footer1">
                 <div class="content_footer">
                         <div id="Xavier_1">
-                                <img src="./../assets/img/imagefooter.png" class="imagefoot">
+                                <img src="./../assets/img/imagefooter.png" class="imagefoot" alt="image_PDG">
                                 <article class="art_1">
                                         <h4>Xavier Caïtucoli</h4>
                                         <span class="PDG">PDG de Direct Energie</span>
@@ -31,7 +31,7 @@
                         </div>
 
                         <div id="Jean_Rene">
-                                <img src="./../assets/img/imagefooter2.png" class="imagefoot">
+                                <img src="./../assets/img/imagefooter2.png" class="imagefoot" alt="image_JeanRene">
                                 <article class="art_1">
                                         <h4>Jean-René Bernaudeau</h4>
                                         <span class="PDG">Manager de Direct Energie Teams</span>

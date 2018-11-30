@@ -57,6 +57,12 @@
 *
 */
 
+
+
+/*
+*Premier footer, avec les noms des PDG et Manager
+*/
+
 .content_footer {
     width: 95%;
     max-width: 1000px;
@@ -66,6 +72,9 @@
     justify-content: space-between;
 }
 
+/*
+*Deuxième footer avec les newsletter, réseaux sociaux, kit de presse 
+*/
 .content_footer2 {
     width: 95%;
     max-width: 1000px;
@@ -81,9 +90,7 @@
 
 
 /*
-*
 * -------------------------------------------- Premier footer ------------------------------------------
-*
 */
 
 
@@ -93,6 +100,9 @@
     background-color: #38435b;
 }
 
+/*
+* Div concernant Xavier
+*/ 
 #Xavier_1 {
     display: flex;
     width: 35%;
@@ -101,6 +111,9 @@
     color: aliceblue;
 }
 
+/*
+* Div concernant Jean Rene 
+*/
 #Jean_Rene {
     display: flex;
     width: 35%;
@@ -109,6 +122,9 @@
     color: aliceblue;
 }
 
+/*
+* Redimension des photos 
+*/ 
 .imagefoot {
     height: 150%;
     width: 25%;
@@ -116,11 +132,17 @@
     border-radius: 100%;
 }
 
+/*
+* Div avec les légendes des photos
+*/ 
 .art_1 {
     margin-left: 4%;
     margin-right: 2%;
 }
 
+/*
+* Titre des légendes des photos 
+*/ 
 h4 {
     color: aliceblue;
     font-weight: bold;
@@ -129,16 +151,25 @@ h4 {
     font-family: 'Montserrat-Bold';
 }
 
+/*
+*PDG et Manager en jaune 
+*/ 
 .PDG {
     color: #ffda00;
 }
 
+/*
+*Paragraphe 
+*/
 .para {
     margin-top: 4%;
     font-family: "Nunito-Regular";
     font-size: 115%;
 }
 
+/*
+* Bouton lire la suite 
+*/
 .lire_suite {
     display: flex;
     border: solid thin #ffda00;
@@ -155,9 +186,7 @@ h4 {
 }
 
 /* 
-*
 * ----------------------------------------- Deuxième footer ------------------------------------------
-*
 */
 
 #footer2 {
@@ -166,6 +195,9 @@ h4 {
 
 }
 
+/*
+* Titre NEWSLETTER etc...
+*/
 .content_footer2 section h2 {
     font-family: "Montserrat-ExtraBold";
     font-size: 1rem;
@@ -175,6 +207,9 @@ h4 {
     word-spacing: 5px;
 }
 
+/*
+* Trait au dessus des titres
+*/ 
 .content_footer2 section h2:before {
     content: "";
     display: block;
@@ -183,6 +218,9 @@ h4 {
     padding-top: 10px;
 }
 
+/*
+* S'applique sur les sections du deuxième footer 
+*/ 
 .content_footer2 section {
 
     display: flex;
@@ -192,6 +230,9 @@ h4 {
     height: 70%;
 }
 
+/*
+* S'applique sur les légendes des logos des réseaux sociaux 
+*/
 .content_footer2 figcaption {
     font-family: "Montserrat-Light";
     margin-left: 10%;
@@ -202,13 +243,18 @@ h4 {
     font-size: 0.8rem;
     width: 50%;
 }
+/*
+* Redimension des logos
+*/
 
 .content_footer2 img {
     width: 22px;
 
 
 }
-
+ /*
+ * Redimension des logos facebook et instagram 
+ */ 
 .content_footer2 img[alt~="facebook"] {
     width: 12px;
 }
@@ -217,12 +263,20 @@ h4 {
     width: 18px;
 }
 
+/*
+* Div contenant les logos des réseaux sociaux 
+*/ 
+
 .reseau {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 70%;
 }
+
+/*
+* S'applique sur les figures de la div reseau
+*/ 
 
 .reseau figure {
     width: 20%;
@@ -231,7 +285,9 @@ h4 {
     flex-direction: column;
     align-items: center;
 }
-
+ /*
+ * Redimension de l'ecriture facebook et google afin de forcer le flex wrap 
+ */ 
 .fb {
     padding-left: 10%;
     margin: 5%;
@@ -242,6 +298,9 @@ h4 {
     padding-left: 10%;
 }
 
+/*
+* Modification des couleurs des boutons et textarea email et submit 
+*/ 
 input[type="submit"],
 input[type="email"] {
     border: solid thin white;
@@ -256,10 +315,13 @@ input[type="email"] {
     background-color: #3c465f;
 }
 
-.pdf {
-    display: flex;
-    width: 50%;
-    align-items: flex-start;
+/*
+* Div contenant le bouton pour télécharger un pdf
+*/ 
+.pdf{
+    display:flex; 
+    width: 50%; 
+    align-items: flex-start; 
     border: solid thin white;
     background-color: transparent;
     margin-top: 3%;
@@ -268,33 +330,20 @@ input[type="email"] {
 
 }
 
-#doss {
-    display: flex;
+/*
+* Bouton Télécharger un pdf 
+*/ 
+#doss{
+    display: flex; 
     color: white;
     font-family: "Montserrat-Light";
     padding-left: 6%;
 
 }
 
-
-/* 
-*
-* ----------------------------------------- CE QU'IL FAUT FAIRE ------------------------------------------
-*
-*
-*   - Terminer le footer avec la nouvelle strucutre HTML
-*   -----------------------------------------------------------
-*   - Faire la zone mentions légales avec la classe "mentions"
-*   - /!\ il faut utiliser des <a> et leur appliquer un border-left
-*
-*   ------------------------------------------------------------
-*                  (>°-°)> TAKE OUR ENERGY (>°-°)>
-*                       On y croivent tous
-*  --> Grosse musique pour être au taquet ! https://www.youtube.com/watch?v=oHg5SJYRHA0
-*
+/*
+* Dernier footer avec les mentions légales
 */
-
-
 
 .mentions {
     text-align: center;
@@ -305,18 +354,23 @@ input[type="email"] {
     display: flex;
     justify-content: center;
 }
-
-#ff {
-    color: aliceblue;
-    margin: 1%;
+/*
+* Permet de faire la barre entre Mentions Légales et Création du site 
+*/ 
+#ff{
+    color: aliceblue; 
+    margin: 1%; 
     padding-left: 1%;
     border-left: solid thin white;
     word-spacing: 1px;
     font-family: "Montserrat-Light";
 }
 
-#f1 {
-    color: aliceblue;
+/*
+* Permet de ne pas avoir la barre du border left 
+*/ 
+#f1{
+    color: aliceblue; 
     margin-top: 1%;
     word-spacing: 1px;
     font-family: "Montserrat-Light";
