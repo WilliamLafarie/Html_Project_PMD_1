@@ -113,10 +113,10 @@
 
                 <p class="mentions">
                         <div id="mentions">
-                        <a href="" id="f1"> &copy; Direct energie Team 2016 Tous Droits Réservés </a>
-                        <a href="" id="ff">Mentions Légales </a>
-                        <a href="" id="ff">Création du site internet </a>
-</div>
+                                <a href="" id="f1"> &copy; Direct energie Team 2016 Tous Droits Réservés </a>
+                                <a href="" id="ff">Mentions Légales </a>
+                                <a href="" id="ff">Création du site internet </a>
+                        </div>
                 </p>
 
         </section>
