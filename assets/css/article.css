@@ -51,7 +51,7 @@ main {
     padding: 10px;
 }
 
-figure {
+.chapeau figure {
     background-color:#ffd500;
     width: 150px;
     height: 150px;
@@ -68,11 +68,11 @@ figure {
     
 }
 
-figure img {
+.chapeau figure img {
     width: 30%;
 }
 
-figcaption {
+.chapeau figcaption {
     padding:0 20%;
     text-align: center;
 }
