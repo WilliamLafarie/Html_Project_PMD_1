@@ -31,7 +31,7 @@
                                         </article>
                                 </div>
 
-                                <div id="Xavier_1">
+                                <div id="Jean_Rene">
                                         <img src="./../assets/img/imagefooter2.png" class="imagefoot">
                                         <article class="art_1">
                                                 <h4>Jean-René Bernaudeau</h4>
@@ -53,12 +53,12 @@
 
                 <section id="footer2">
 
-                        <div class="content_footer">
+                        <div class="content_footer2">
 
                                 <section>
                                         <h2>Newsletter</h2>
 
-                                        <p>Recevez par mail les derniersrésultats, les prochaines courses et les interviews de la Direct Energie Team</p>
+                                        <p>Recevez par mail les derniers résultats, les prochaines courses et les interviews de la Direct Energie Team</p>
 
                                         <div class="bouton">
                                                 <input type="email" placeholder="votre email">
@@ -69,32 +69,38 @@
 
                                 <section>
                                         <h2>Réseaux sociaux</h2>
-
+                                        <div class="reseau">
+                                                <div class="top">
                                         <figure>
-                                                <img src="" alt="youtube">
-                                                <figcaption>Youtube</figcaption>
+                                        
+                                                <img src="./../assets/img/youtube.png" alt="youtube">
+                                                
+                                                <figcaption>youtube</figcaption>
                                         </figure>
 
                                         <figure>
-                                                <img src="" alt="Twitter">
-                                                <figcaption>Twitter</figcaption>
+                                        <img src="./../assets/img/twitter.png" alt="twitter">
+                                                <figcaption>twitter</figcaption>
                                         </figure>
 
                                         <figure>
-                                                <img src="" alt="Instagram">
-                                                <figcaption>Instagram</figcaption>
+                                                <img src="./../assets/img/insta.png" alt="instagram">
+                                                <figcaption>instagram</figcaption>
+                                        </figure>
+</div>
+<div class="bottom">
+
+                                        <figure>
+                                                <img src="./../assets/img/fb.png" alt="facebook">
+                                                <figcaption>facebook</figcaption>
                                         </figure>
 
                                         <figure>
-                                                <img src="" alt="Facebook">
-                                                <figcaption>Facebook</figcaption>
+                                                <img src="./../assets/img/google.png" alt="google+">
+                                                <figcaption>google+</figcaption>
                                         </figure>
-
-                                        <figure>
-                                                <img src="" alt="Google+">
-                                                <figcaption>Google+</figcaption>
-                                        </figure>
-
+</div>
+</div>
                                 </section>
 
                                 <section>
