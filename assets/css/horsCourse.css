@@ -28,6 +28,7 @@ main {
     padding: 2.5rem 0;
 }
 
+<<<<<<< HEAD
 /* Paramètres de la barre précédent le titre */
 .content h2:before {
     content: "";
@@ -51,6 +52,10 @@ main {
 
 /* Paramètres de chaque section*/
 .line {
+=======
+/* Première ligne de la page */
+.firstline {
+>>>>>>> 127f115853ce5de80b8a95f103703b5df428f83c
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;

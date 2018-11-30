@@ -82,12 +82,13 @@
     text-align: center;
 }
 
-.camera {
+.actualite__item .camera {
     width: auto;
     bottom: 35%;
+    background-color: #ffd500;
 }
 
-.camera img{
+.actualite__item .camera img{
     width: 2rem;
 }
 

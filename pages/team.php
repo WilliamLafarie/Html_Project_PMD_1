@@ -13,7 +13,7 @@
 <main>
 
     <div class="contentglobal">
-        <div class="contentteam">
+        <div class="contentteam content">
             <h2>L'ÉQUIPE > LES COUREURS</h2>
             <div class="contenttop">
                 <figure>
