@@ -19,11 +19,11 @@
             <a href="./home.php" class="logoheader"><img src="./../assets/img/slogan.png" alt="logo"/></a>
             <a href="./home.php"><img src="./../assets/img/home/logoaccueil.png" alt="home"></a>
             <a href="./article.php">Actualités</a>
-            <a href="#">Hors-course</a>
-            <a href="#">Calendrier</a>
+            <a href="./horscourse.php">Hors-course</a>
+            <a href="http://www.teamdirectenergie.com/calendrier-des-courses/">Calendrier</a>
             <a href="./team.php">L'équipe 2016</a>
-            <a href="#">Galerie</a>
-            <a href="#">Social Live</a>
-            <a href="#">Partenaires</a>
+            <a href="http://www.teamdirectenergie.com/galerie/">Galerie</a>
+            <a href="http://www.teamdirectenergie.com/social-live/">Social Live</a>
+            <a href="http://www.teamdirectenergie.com/nos-partenaires/">Partenaires</a>
         </nav>
     </header>

@@ -12,6 +12,59 @@
 
 <main>
 
+    <div class="content">
+        <h2>HORS-COURSE</h2>
+        <section class="firstline">
+
+            <figure class="iconelineone">
+                <img src="./../assets/img/home/image11accueil.png" alt="micro">
+                <figcaption>
+                    <p>Indiscrétion</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./../assets/img/home/image6accueil.png" alt="cycliste">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet conse...</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./../assets/img/home/image6accueil.png" alt="cycliste">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet conse...</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./../assets/img/home/image6accueil.png" alt="cycliste">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet conse...</p>
+                </figcaption>
+            </figure>
+        
+        </section>
+
+        <section class="secondline">
+            <figure>
+                <img src="./../assets/img/home/image8accueil.png" alt="velo">
+                <figcaption>
+                    <p>Le vélo pours les nuls</p>
+                </figcaption>
+            </figure>
+        
+        </section>
+
+        <section class="thirdline">
+            <figure>
+                <img src="./../assets/img/home/image9accueil.png" alt="roue">
+                <figcaption>
+                    <p>Tactique & technique</p>
+                </figcaption>
+            </figure>
+        </section>
+    </div>
 
 </main>
 
