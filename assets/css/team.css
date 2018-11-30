@@ -4,24 +4,22 @@
 
 @import url('./fonts.css');
 
+/* Paramètres du main avec background*/
 main {
-    /*margin: 0 auto;*/
     width: 100%;
-    /*max-width: 1000px;*/
-    /*position: relative;*/
-    /*background: linear-gradient(to bottom, #f0f6ff 24.75%,#ffffff 24.75%);*/
     background-image: url("./../img/fondcercle.png");
     background-repeat: no-repeat;
     background-size: 100% 566px;
 }
 
-
+/* Paramètres de la zone global */
 .contentglobal{
     margin: 0 auto;
     max-width: 1000px;
     width: 95%;
 }
 
+/* Paramètres globaux de la zone comportant du contenu*/
 .contentteam{
     margin: 0 auto;
     width: 90%;
@@ -29,39 +27,27 @@ main {
     z-index: 2;
 }
 
-.contentteam h2{
-    font-family: 'Montserrat-ExtraBold';
-    font-size: 1.5rem;
-    color: #575859;
-    text-transform: uppercase;   
-    margin-bottom: 20px;
-    word-spacing: 5px;
-}
 
-.contentteam h2:before{
-    content: "";
-    display: block;
-    width: 4rem;
-    border-top: 3px solid #ffda00;
-    padding-top: 10px;
-}
-
+/* Paramètres de marge */
 .contentteam figure{
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
+/* Paramètres des coureurs étant sur une ligne de 4 */
 .contenttop{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+/* Paramètres des deux derniers coureurs */
 .contentbot{
     display: flex;
     flex-direction: row;
 }
 
+/* Paramètres des noms des coureurs */
 .contentteam figcaption {
     text-align: center;
     font-family: 'Nunito-Bold';
@@ -69,6 +55,7 @@ main {
     color: #575859;
 }
 
+/* Paramètres du trait noir en dessous du nom des coureurs*/
 .contentteam figcaption:after{
     content: "";
     display: block;

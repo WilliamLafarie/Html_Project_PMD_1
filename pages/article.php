@@ -14,7 +14,7 @@
 
     <section class="content">
             <div class="title">
-               <!--  <img src="./../assets/img/home/next.svg" alt="next"> -->
+                <a href="./horsCourse.php"><img src="./../assets/img/home/next.svg" alt="next"></a>
                 <h1>hors-course > Indiscrétion</h1>
             </div>
 

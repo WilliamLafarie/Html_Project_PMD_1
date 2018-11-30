@@ -15,9 +15,9 @@
     <div class="contentglobal">
         <div class="content">
         <h2>HORS-COURSE</h2>
-            <section class="firstline">
+            <section class="line">
 
-                <figure class="iconelineone">
+                <figure class="iconeline">
                     <img src="./../assets/img/home/image11accueil.png" alt="micro">
                     <figcaption>
                         <p>Indiscrétion</p>
@@ -44,13 +44,15 @@
                         <p>Lorem ipsum dolor sit amet conse...</p>
                     </figcaption>
                 </figure>
+
+                <img src="./../assets/img/home/next.svg" alt="next">
             
             </section>
         </div>
 
         <div class="content">
-            <section class="secondline">
-                <figure class="iconelinetwo">
+            <section class="line">
+                <figure class="iconeline">
                     <img src="./../assets/img/home/image8accueil.png" alt="velo">
                     <figcaption>
                         <p>Le vélo pours les nuls</p>
@@ -77,13 +79,16 @@
                         <p>Lorem ipsum dolor sit amet conse...</p>
                     </figcaption>
                 </figure>
+
+                <img src="./../assets/img/home/next.svg" alt="next">
             
             </section>
         </div>
 
         <div class="content">
-            <section class="thirdline">
-                <figure class="iconelinethree">
+            <section class="line">
+
+                <figure class="iconeline">
                     <img src="./../assets/img/home/image9accueil.png" alt="roue">
                     <figcaption>
                         <p>Tactique & technique</p>
@@ -110,6 +115,9 @@
                         <p>Lorem ipsum dolor sit amet conse...</p>
                     </figcaption>
                 </figure>
+
+                <img src="./../assets/img/home/next.svg" alt="next">
+
             </section>
         </div>
     </div>

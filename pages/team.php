@@ -13,7 +13,7 @@
 <main>
 
     <div class="contentglobal">
-        <div class="contentteam">
+        <div class="contentteam content">
             <h2>L'ÉQUIPE > LES COUREURS</h2>
             <div class="contenttop">
                 <figure>
@@ -21,8 +21,8 @@
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
-                    <figcaption>Bryan Coquard</figcaption>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
                     <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
@@ -37,8 +37,8 @@
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
-                    <figcaption>Bryan Coquard</figcaption>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
                     <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
@@ -53,8 +53,8 @@
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
-                    <figcaption>Bryan Coquard</figcaption>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
                     <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
@@ -69,8 +69,8 @@
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
-                    <figcaption>Bryan Coquard</figcaption>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
                     <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
@@ -85,8 +85,8 @@
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure>
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
-                    <figcaption>Bryan Coquard</figcaption>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <figcaption>Thomas Voeckler</figcaption>
                 </figure>
                 <figure>
                     <a href="#"><img src="./../assets/img/team/teamun.png" alt="Photo coureur"/></a>
@@ -103,8 +103,8 @@
                     <figcaption>Natanael Berhane</figcaption>
                 </figure>
                 <figure class="last">
-                    <a href="#"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
-                    <figcaption>Bryan Coquard</figcaption>
+                    <a href="./coureur.php"><img src="./../assets/img/team/teamdeux.png" alt="Photo coureur"/></a>
+                    <figcaption>Thomas Voeckler</figcaption>
                 </figure>
             </div>
         </div>

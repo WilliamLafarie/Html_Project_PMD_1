@@ -4,15 +4,15 @@
 
 @import url('./fonts.css');
 
+/* Paramètres globaux du main avec background */
 main {
-
     background-image: url('./../img/fondcercle');
     background-repeat: no-repeat;
-    background-size: 100% 36.5%;
-
+    background-size: 100% 37.2%;
     width: 100%;
 }
 
+/* Paramètres du contenu global avec background */
 .contentglobal{
     background-image: url('./../img/fondcercledeux');
     background-repeat: no-repeat;
@@ -20,6 +20,7 @@ main {
     background-size: 100% 33.5%;
 }
 
+/* Paramètres de la zone global de contenu */
 .content {
     width: 95%;
     max-width: 1000px;
@@ -27,6 +28,8 @@ main {
     padding: 2.5rem 0;
 }
 
+<<<<<<< HEAD
+/* Paramètres de la barre précédent le titre */
 .content h2:before {
     content: "";
     display: block;
@@ -35,6 +38,7 @@ main {
     padding-top: 10px;
 }
 
+/* Paramètres du titre */
 .content h2 {
     font-family: "Montserrat-ExtraBold";
     font-size: 1.5rem;
@@ -44,37 +48,43 @@ main {
     word-spacing: 5px;    
 }
 
+/* Pour chaque ligne/section de la page */
+
+/* Paramètres de chaque section*/
+.line {
+=======
 /* Première ligne de la page */
 .firstline {
+>>>>>>> 127f115853ce5de80b8a95f103703b5df428f83c
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.firstline figure {
+/* Paramètres de chaque élément de chaque section */
+.line figure {
     background-color:#ffd500;
-    width: 240px;
-    height: 240px;
+    width: 225px;
+    height: 225px;
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
-.firstline figcaption {
+/* Paramètres du contenu de chaque élément */
+.line figcaption {
     text-align: center;
-    
 }
 
-.firstline figcaption p {
+/* Paramètres du texte de chaque élément */
+.line figcaption p {
     font-family: "Nunito-Bold";
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -83,12 +93,25 @@ main {
     padding: 10px 0;
 }
 
-.firstline figure:not(.iconelineone) {
-    position:relative;
-
+/* Paramètres du texte du premier élément de la deuxième section */
+.content:nth-child(2) figure:first-child figcaption p{
+    margin: 0 auto;
+    width: 70%;
 }
 
-.firstline figure:not(.iconelineone) figcaption{
+/* Paramètres du texte du premier élément de la troisième section */
+.content:nth-child(3) figure:first-child figcaption p{
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* Paramètres de chaque élément de chaque section excepté le premier */
+.line figure:not(.iconeline) {
+    position:relative;
+}
+
+/* Paramètres du contenu de chaque élément de chaque section excepté le premier */
+.line figure:not(.iconeline) figcaption{
     position: absolute;
     background-color: #575859;
     bottom: 10px;
@@ -96,121 +119,18 @@ main {
     left: 10px;;
 }
 
-.firstline figure:not(.iconelineone) figcaption p{
+/* Paramètres du texte du contenu de chaque élément de chaque section excepté le premier */
+.line figure:not(.iconeline) figcaption p{
     color:white;
     font-size: 0.8rem;
 }
 
-/* Deuxième ligne de la page */
-.secondline {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+/* Paramètres des images de chaque section excepté la première */
+.line figure:not(.iconeline) img{
+    width: 91%;
 }
 
-.secondline figure {
-    background-color:#ffd500;
-    width: 240px;
-    height: 240px;
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.secondline figcaption {
-    text-align: center;
-    
-}
-
-.secondline figcaption p {
-    font-family: "Nunito-Bold";
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    color: #575859;
-    border-bottom: 3px solid #575859;
-    padding: 10px 0;
-}
-
-.secondline figure:not(.iconelinetwo) {
-    position:relative;
-
-}
-
-.secondline figure:not(.iconelinetwo) figcaption{
-    position: absolute;
-    background-color: #575859;
-    bottom: 10px;
-    right: 10px;
-    left: 10px;;
-}
-
-.secondline figure:not(.iconelinetwo) figcaption p{
-    color:white;
-    font-size: 0.8rem;
-}
-
-/* troisième ligne de la page */
-.thirdline {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.thirdline figure {
-    background-color:#ffd500;
-    width: 240px;
-    height: 240px;
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.thirdline figcaption {
-    text-align: center;
-    
-}
-
-.thirdline figcaption p {
-    font-family: "Nunito-Bold";
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    color: #575859;
-    border-bottom: 3px solid #575859;
-    padding: 10px 0;
-}
-
-.thirdline figure:not(.iconelinethree) {
-    position:relative;
-
-}
-
-.thirdline figure:not(.iconelinethree) figcaption{
-    position: absolute;
-    background-color: #575859;
-    bottom: 10px;
-    right: 10px;
-    left: 10px;;
-}
-
-.thirdline figure:not(.iconelinethree) figcaption p{
-    color:white;
-    font-size: 0.8rem;
+/* Paramètres de la première image de chaque section */
+.line img:last-child {
+    width: 5%;
 }
