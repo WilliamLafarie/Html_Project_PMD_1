@@ -7,9 +7,10 @@
 
 main {
 
-    background: linear-gradient(to bottom, #ffde00 45%,#f0f6ff 45%,  #ffffff 45%);
+    background: linear-gradient(to bottom, #ffde00 28%,#f0f6ff 28%,  #ffffff 28%);
     width: 100%;
 }
+
 
 .content {
     width: 95%;
@@ -133,35 +134,32 @@ main {
     
 }
 
-.identite__item p {
+.identite__data {
+    width: 100%;
+}
+
+.identite__data tr td:first-child {
     font-family: "OpenSans-Bold";
     font-size: 1rem;
     color: #575859;
-    margin: 20px 0;
+    padding: 10px;
 }
 
-.identite__item p:after {
+.identite__data tr td:first-child:after {
     content: "";
     display: block;
     width: 3rem;
     border-bottom: 3px solid #575859;
     padding-bottom: 5px;
+    
 }
 
-.identite__valeur p {
-    font-family: "OpenSans-SemiBold";
+.identite__data tr td:last-child {
+    font-family: "Nunito-Bold";
     font-size: 1rem;
-    color: #575859;
-    margin: 20px 0;
-    margin-left: auto;
-}
-
-.identite__valeur p:after {
-    content: "";
-    display: block;
-    width: 3rem;
-    border-bottom: 3px solid #575859;
-    padding-bottom: 5px;
+    color: #b1b1b1;
+    padding:10px;
+    
 }
 
 .palmares {
@@ -170,6 +168,7 @@ main {
 
 .palmares__content {
     background-color: #ffd800;
+    padding: 10px;
 }
 
 .palmares__content h3 {
@@ -187,7 +186,16 @@ main {
     padding-top: 10px;
 }
 
+.palmares__date {
+    font-family: "Nunito-Bold";
+    font-size: 1rem;
+    color: #575859;
+    padding: 10px;
+}
 
+.palmares__date a {
+    border-bottom: 2px solid #575859
+}
 
 .palmares__text {
     display: flex;
@@ -209,7 +217,7 @@ main {
 .more { 
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
+    padding: 20px;
 }
 
 .more a {
@@ -219,3 +227,82 @@ main {
     border-bottom: 3px solid #575859;
     text-transform: uppercase;
 }
+
+
+.who h2{
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 1.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin: 20px 0;
+    word-spacing: 5px;
+}
+
+.who h2:before{
+    content: "";
+    display: block;
+    width: 4rem;
+    border-top: 3px solid #ffda00;
+    padding-top: 10px;
+}
+
+.who article {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 2;
+}
+
+
+.who article p {
+    font-family: "Nunito-Regular";
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.actuCoureur {
+    background-color:#f0f6ff;
+}
+
+.actuCoureur h2{
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 1.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin: 20px 0;
+    word-spacing: 5px;
+}
+
+.actuCoureur h2:before{
+    content: "";
+    display: block;
+    width: 4rem;
+    border-top: 3px solid #ffda00;
+    padding-top: 10px;
+}
+
+.actuCoureur__news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__item {
+    position:relative;
+    width: 50%;
+}
+.news__item figcaption{
+    background-color: #ffda00;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 10%;
+    width:80%;
+    font-family: "OpenSans-SemiBold";
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+
