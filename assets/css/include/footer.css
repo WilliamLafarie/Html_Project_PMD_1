@@ -4,14 +4,14 @@
 
 @import url('./../fonts.css');
 
-.contact{
+.contact {
     width: 60%;
-    margin: 4rem auto; 
+    margin: 4rem auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 2rem 0;
-    background-color: #f0f6ff; 
+    background-color: #f0f6ff;
 }
 
 .contact img {
@@ -27,7 +27,7 @@
 }
 
 .slogan p:last-child {
-    margin-top:20px;
+    margin-top: 20px;
     font-family: "OpenSans-SemiBold";
 }
 
@@ -37,7 +37,7 @@
     align-items: center;
     background-color: #2f3749;
     color: #ffda00;
-    padding:10px;
+    padding: 10px;
 }
 
 .phone p {
@@ -57,24 +57,25 @@
 *
 */
 
-.content_footer{
+.content_footer {
     width: 95%;
     max-width: 1000px;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 2.5rem 0;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
-.content_footer2{
-        width: 95%;
-        max-width: 1000px;
-        margin: 0 auto; 
-        padding: 2.5rem 0;
-        display: flex;
-        justify-content: space-between; 
+.content_footer2 {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
 
-    
+
 }
 
 
@@ -87,37 +88,40 @@
 */
 
 
-#footer1{
+#footer1 {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     background-color: #38435b;
 }
-  
+
 #Xavier_1 {
     display: flex;
     width: 35%;
-    height: 50%; 
+    height: 50%;
     font-family: "Montserrat-Light";
-    color: aliceblue; 
+    color: aliceblue;
 }
 
-#Jean_Rene{
+#Jean_Rene {
     display: flex;
     width: 35%;
-    height: 50%; 
+    height: 50%;
     font-family: "Montserrat-Light";
-    color: aliceblue; 
+    color: aliceblue;
 }
+
 .imagefoot {
     height: 150%;
     width: 25%;
-    border: solid 4px #ffda00; 
-    border-radius: 100%; 
+    border: solid 4px #ffda00;
+    border-radius: 100%;
 }
-.art_1{
-    margin-left: 4%; 
-    margin-right: 2%; 
+
+.art_1 {
+    margin-left: 4%;
+    margin-right: 2%;
 }
+
 h4 {
     color: aliceblue;
     font-weight: bold;
@@ -125,49 +129,51 @@ h4 {
     display: flex;
     font-family: 'Montserrat-Bold';
 }
+
 .PDG {
     color: #ffda00;
 }
 
-.para{
-    margin-top: 4%; 
+.para {
+    margin-top: 4%;
     font-family: "Nunito-Regular";
-    font-size: 115%; 
+    font-size: 115%;
 }
 
-.lire_suite{
-    display: flex; 
-    border:solid thin #ffda00; 
-    background-color: transparent; 
+.lire_suite {
+    display: flex;
+    border: solid thin #ffda00;
+    background-color: transparent;
     font-family: "Montserrat-Light";
-    font-size: 10px; 
+    font-size: 10px;
     color: #ffda00;
-    justify-content: flex-end; 
-    margin-left: 60%;  
-    padding: 2%; 
-    padding-left: 5%; 
-    padding-right: 5%; 
-    margin-top: 2%; 
+    justify-content: flex-end;
+    margin-left: 60%;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
 }
+
 /* 
 *
 * ----------------------------------------- Deuxième footer ------------------------------------------
 *
 */
 
-#footer2{
-    background-color: #2f3749; 
-    color:white;
-    
+#footer2 {
+    background-color: #2f3749;
+    color: white;
+
 }
 
 .content_footer2 section h2 {
     font-family: "Montserrat-ExtraBold";
     font-size: 1rem;
     color: white;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     margin-bottom: 20px;
-    word-spacing: 5px;  
+    word-spacing: 5px;
 }
 
 .content_footer2 section h2:before {
@@ -179,53 +185,93 @@ h4 {
 }
 
 .content_footer2 section {
+
     display: flex;
     flex-direction: column;
-    width: 40%; 
+    justify-content: center;
+    width: 40%;
     height: 70%;
+}
+
+.content_footer2 figcaption {
+    font-family: "Montserrat-Light";
+    margin-left: 10%;
 }
 
 .content_footer2 section p {
     font-family: "Nunito-Regular";
     font-size: 0.8rem;
-    width:50%;
-}
-
-.content_footer2 img{
-width: 22px; 
-margin: 20%; 
-}
-
-.content_footer2 img[alt~="facebook"]{
-    width:12px; 
-}
-
-.content_footer2 img[alt~="instagram"]{
-    width:18px; 
-}
-
-.reseau{
-    display:flex; 
-    flex-wrap: wrap; 
-    justify-content: flex-start;
     width: 50%;
 }
 
+.content_footer2 img {
+    width: 22px;
+    margin: 30%;
+
+}
+
+.content_footer2 img[alt~="facebook"] {
+    width: 12px;
+}
+
+.content_footer2 img[alt~="instagram"] {
+    width: 18px;
+}
+
+.reseau {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
 .reseau figure {
-    margin: 0 10px; 
+    width: 20%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-input[type="submit"], input[type="email"]{
-    border: solid thin white; 
-    padding: 4%; 
-    background-color:transparent; 
-    margin-top: 3%; 
-    color: white; 
+.fb {
+    padding-left: 10%;
+    margin: 5%;
 }
 
-input[type="email"]{
-    width: 45%; 
-    background-color: #3c465f; 
+.gg {
+    margin: 5%;
+    padding-left: 10%;
+}
+
+input[type="submit"],
+input[type="email"] {
+    border: solid thin white;
+    padding: 4%;
+    background-color: transparent;
+    margin-top: 3%;
+    color: white;
+}
+
+input[type="email"] {
+    width: 45%;
+    background-color: #3c465f;
+}
+
+.pdf{
+    display:flex; 
+    width: 50%; 
+    align-items: flex-start; 
+    border: solid thin white;
+    background-color: transparent;
+    margin-top: 3%;
+    color: white;
+    
+}
+
+#doss{
+    display: flex; 
+    color: white;
+    font-family: "Montserrat-Light";
 }
 
 
@@ -251,4 +297,23 @@ input[type="email"]{
 .mentions {
     text-align: center;
     border-top: 3px solid #ffda00;
+}
+
+#mentions{
+    display: flex; 
+    justify-content: center; 
+}
+#ff{
+    color: aliceblue; 
+    margin: 1%; 
+    padding-left: 1%; 
+    border-left: solid thin white;
+    word-spacing: 1px;
+    font-family: "Montserrat-Light";
+}
+#f1{
+    color: aliceblue; 
+    margin-top: 1%; 
+    word-spacing: 1px;
+    font-family: "Montserrat-Light";
 }
