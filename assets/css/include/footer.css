@@ -188,7 +188,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 30%;
     height: 70%;
 }
 
@@ -264,6 +264,7 @@ input[type="email"] {
     background-color: transparent;
     margin-top: 3%;
     color: white;
+    padding: 3%; 
     
 }
 
@@ -271,6 +272,8 @@ input[type="email"] {
     display: flex; 
     color: white;
     font-family: "Montserrat-Light";
+    padding-left:6%; 
+
 }
 
 
