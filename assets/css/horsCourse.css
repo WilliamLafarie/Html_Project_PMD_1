@@ -28,34 +28,14 @@ main {
     padding: 2.5rem 0;
 }
 
-<<<<<<< HEAD
-/* Paramètres de la barre précédent le titre */
-.content h2:before {
-    content: "";
-    display: block;
-    width: 4rem;
-    border-top: 3px solid #ffda00;
-    padding-top: 10px;
-}
 
-/* Paramètres du titre */
-.content h2 {
-    font-family: "Montserrat-ExtraBold";
-    font-size: 1.5rem;
-    color: #575859;
-    text-transform: uppercase;   
-    margin-bottom: 20px;
-    word-spacing: 5px;    
-}
 
 /* Pour chaque ligne/section de la page */
 
 /* Paramètres de chaque section*/
 .line {
-=======
 /* Première ligne de la page */
-.firstline {
->>>>>>> 127f115853ce5de80b8a95f103703b5df428f83c
+
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
