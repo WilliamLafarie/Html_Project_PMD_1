@@ -12,8 +12,7 @@ main {
     /*background: linear-gradient(to bottom, #f0f6ff 24.75%,#ffffff 24.75%);*/
     background-image: url("./../img/fondcercle.png");
     background-repeat: no-repeat;
-    background-position: -87px 0px;
-    background-size: 1720px 566px;
+    background-size: 100% 566px;
 }
 
 

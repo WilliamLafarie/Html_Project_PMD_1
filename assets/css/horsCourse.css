@@ -6,8 +6,18 @@
 
 main {
 
-    background: linear-gradient(to bottom, #f0f6ff 24.75%,#ffffff 24.75%);
+    background-image: url('./../img/fondcercle');
+    background-repeat: no-repeat;
+    background-size: 100% 36.5%;
+
     width: 100%;
+}
+
+.contentglobal{
+    background-image: url('./../img/fondcercledeux');
+    background-repeat: no-repeat;
+    background-position: 0px 100%;
+    background-size: 100% 33.5%;
 }
 
 .content {
@@ -17,12 +27,33 @@ main {
     padding: 2.5rem 0;
 }
 
+.content h2:before {
+    content: "";
+    display: block;
+    width: 4rem;
+    border-top: 3px solid #ffda00;
+    padding-top: 10px;
+}
+
+.content h2 {
+    font-family: "Montserrat-ExtraBold";
+    font-size: 1.5rem;
+    color: #575859;
+    text-transform: uppercase;   
+    margin-bottom: 20px;
+    word-spacing: 5px;    
+}
+
+/* Première ligne de la page */
 .firstline {
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .firstline figure {
@@ -52,12 +83,12 @@ main {
     padding: 10px 0;
 }
 
-.firstline figure {
+.firstline figure:not(.iconelineone) {
     position:relative;
 
 }
 
-.firstline figure figcaption{
+.firstline figure:not(.iconelineone) figcaption{
     position: absolute;
     background-color: #575859;
     bottom: 10px;
@@ -65,7 +96,121 @@ main {
     left: 10px;;
 }
 
-.firstline figure figcaption p{
+.firstline figure:not(.iconelineone) figcaption p{
+    color:white;
+    font-size: 0.8rem;
+}
+
+/* Deuxième ligne de la page */
+.secondline {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secondline figure {
+    background-color:#ffd500;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.secondline figcaption {
+    text-align: center;
+    
+}
+
+.secondline figcaption p {
+    font-family: "Nunito-Bold";
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #575859;
+    border-bottom: 3px solid #575859;
+    padding: 10px 0;
+}
+
+.secondline figure:not(.iconelinetwo) {
+    position:relative;
+
+}
+
+.secondline figure:not(.iconelinetwo) figcaption{
+    position: absolute;
+    background-color: #575859;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;;
+}
+
+.secondline figure:not(.iconelinetwo) figcaption p{
+    color:white;
+    font-size: 0.8rem;
+}
+
+/* troisième ligne de la page */
+.thirdline {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.thirdline figure {
+    background-color:#ffd500;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thirdline figcaption {
+    text-align: center;
+    
+}
+
+.thirdline figcaption p {
+    font-family: "Nunito-Bold";
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #575859;
+    border-bottom: 3px solid #575859;
+    padding: 10px 0;
+}
+
+.thirdline figure:not(.iconelinethree) {
+    position:relative;
+
+}
+
+.thirdline figure:not(.iconelinethree) figcaption{
+    position: absolute;
+    background-color: #575859;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;;
+}
+
+.thirdline figure:not(.iconelinethree) figcaption p{
     color:white;
     font-size: 0.8rem;
 }
