@@ -172,12 +172,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: space-around;
     
 }
 
 .horsCourse__item figcaption {
-    padding:0 20%;
     text-align: center;
     
 }
@@ -191,13 +189,7 @@
     padding: 10px 0;
 }
 
-.horsCourse__item figure:first-child img {
-    width:90%;
-    
-}
-
 .horsCourse__item figure:first-child {
-    display: block;
     position:relative;
 
 }
@@ -205,9 +197,16 @@
 .horsCourse__item figure:first-child figcaption{
     position: absolute;
     background-color: #575859;
-    width: 90%;
-    bottom: 0;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;;
 }
+
+.horsCourse__item figure:first-child figcaption p{
+    color:white;
+    font-size: 0.8rem;
+}
+
 
 
 
